@@ -24,6 +24,8 @@ public class TP_Move : MonoBehaviour
     bool isJump;
     bool isGround;
 
+    public GameObject colliderAttack;
+
     void Start()
     {
         animator = GetComponentInChildren<Animator>();
@@ -87,6 +89,18 @@ public class TP_Move : MonoBehaviour
         else
         {
             speed = 10f;
+        }
+
+        if (Input.GetButton("Fire1"))
+        {
+            animator.SetBool("Attack", true);
+            colliderAttack.SetActive(true);
+        }
+        else
+        {
+            animator.SetBool("Attack", false);
+            colliderAttack.SetActive(false);
+
         }
     }
 }

@@ -14,17 +14,54 @@ public class MovimientoFPS_CC : MonoBehaviour
     public LayerMask groundMask;
     public bool isGrounded;
     public float JumpHeight = 3f;
+
+    public GameObject cam1;
+    public GameObject cam2;
+
+    public Animator animator;
+    public GameObject balaPlayer;
+    public Transform pointerBala;
     void Start()
     {
-        
+        animator = GetComponentInChildren<Animator>();
     }
 
     void Update()
     {
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-        if(isGrounded && velocity.y < 0)
+        CambioCamaras();
+    }
+
+    void CambioCamaras()
+    {
+        if (Input.GetButton("Fire2"))
         {
-            velocity.y = -2f;   
+            cam1.SetActive(false);
+            cam2.SetActive(true);
+            GetComponent<TP_Move>().enabled = false;
+            Movimiento();
+        }
+        else
+        {
+            cam1.SetActive(true);
+            cam2.SetActive(false);
+            GetComponent<TP_Move>().enabled = true;
+        }
+    }
+    void Movimiento()
+    {
+        if (Input.GetButton("Fire1"))
+        {
+            animator.SetBool("Shoot", true);
+            Disparo();
+        }
+        else
+        {
+            animator.SetBool("Shoot", false);
+        }
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+        if (isGrounded && velocity.y < 0)
+        {
+            velocity.y = -2f;
         }
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
@@ -39,7 +76,10 @@ public class MovimientoFPS_CC : MonoBehaviour
 
         velocity.y += gravedad * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
+    }
 
-        
+    void Disparo()
+    {
+        Instantiate(balaPlayer, pointerBala.position, transform.rotation);
     }
 }
