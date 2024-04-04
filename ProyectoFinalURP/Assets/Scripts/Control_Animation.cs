@@ -5,7 +5,7 @@ using UnityEngine;
 public class Control_Animation : MonoBehaviour
 {
     // Start is called before the first frame update
-    Animator animator;
+    public Animator animator;
     const float AnimationTime = 0.05f;
     
     void Start()    
