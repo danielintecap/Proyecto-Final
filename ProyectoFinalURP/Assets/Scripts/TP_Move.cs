@@ -54,6 +54,7 @@ public class TP_Move : MonoBehaviour
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         if (isGrounded && velocity.y < 0)
         {
+            animator = GetComponentInChildren<Animator>();
             velocity.y = -2f;
             animator.SetBool("IsGrounded", true);
             isGround = true;
@@ -62,11 +63,13 @@ public class TP_Move : MonoBehaviour
         }
         else
         {
+            animator = GetComponentInChildren<Animator>();
             animator.SetBool("IsGrounded", false);
             isGround = false;
 
             if((isJump && velocity.y < 0))
             {
+                animator = GetComponentInChildren<Animator>();
                 animator.SetBool("IsFalling", true);
             }
         }
@@ -74,6 +77,7 @@ public class TP_Move : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
+            animator = GetComponentInChildren<Animator>();
             velocity.y = Mathf.Sqrt(JumpHeight * -2f * gravedad);
             animator.SetBool("IsJumping", true);
             isJump = true;
@@ -84,20 +88,24 @@ public class TP_Move : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
+            animator = GetComponentInChildren<Animator>();
             speed = 20f;
         }
         else
         {
+            animator = GetComponentInChildren<Animator>();
             speed = 10f;
         }
 
         if (Input.GetButton("Fire1"))
         {
+            animator = GetComponentInChildren<Animator>();
             animator.SetBool("Attack", true);
             colliderAttack.SetActive(true);
         }
         else
         {
+            animator = GetComponentInChildren<Animator>();
             animator.SetBool("Attack", false);
             colliderAttack.SetActive(false);
 

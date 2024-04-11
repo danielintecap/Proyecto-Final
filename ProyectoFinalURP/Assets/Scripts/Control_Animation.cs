@@ -24,6 +24,7 @@ public class Control_Animation : MonoBehaviour
 
         if(Input.GetKey(KeyCode.LeftShift)||Input.GetKey(KeyCode.RightShift))
         {
+            animator = GetComponentInChildren<Animator>();
             Magnitud /= 0.5f;
         }
 
