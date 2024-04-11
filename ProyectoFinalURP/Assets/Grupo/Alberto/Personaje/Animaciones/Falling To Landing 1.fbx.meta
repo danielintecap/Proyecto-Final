@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 84279f792526ff4429c596bcab6c98e3
+guid: 00a039f4b26a69d4fb804aa7388a5f6d
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -36,8 +36,8 @@ ModelImporter:
       name: mixamo.com
       takeName: mixamo.com
       internalID: -203655887218126122
-      firstFrame: 9
-      lastFrame: 32
+      firstFrame: 0
+      lastFrame: 8
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -526,18 +526,18 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: Falling To Landing(Clone)
+    - name: Falling To Landing 1(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Box002
-      parentName: Falling To Landing(Clone)
+      parentName: Falling To Landing 1(Clone)
       position: {x: 6.024663, y: 98.72137, z: -2.0664377}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:Hips
-      parentName: Falling To Landing(Clone)
+      parentName: Falling To Landing 1(Clone)
       position: {x: -0.00000047683716, y: 109.718155, z: -8.128983}
       rotation: {x: -0.000000059604638, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
