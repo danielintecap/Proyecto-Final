@@ -31,7 +31,7 @@ public class MovimientoFPS_CC : MonoBehaviour
         CambioCamaras();
     }
 
-    void CambioCamaras()
+    public void CambioCamaras()
     {
         if (Input.GetButton("Fire2"))
         {
@@ -47,7 +47,7 @@ public class MovimientoFPS_CC : MonoBehaviour
             GetComponent<TP_Move>().enabled = true;
         }
     }
-    void Movimiento()
+    public void Movimiento()
     {
         if (Input.GetButton("Fire1"))
         {

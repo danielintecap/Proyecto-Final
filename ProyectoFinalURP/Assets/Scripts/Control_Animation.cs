@@ -5,7 +5,7 @@ using UnityEngine;
 public class Control_Animation : MonoBehaviour
 {
     // Start is called before the first frame update
-    public Animator animator;
+    Animator animator;
     const float AnimationTime = 0.05f;
     
     void Start()    
@@ -24,7 +24,6 @@ public class Control_Animation : MonoBehaviour
 
         if(Input.GetKey(KeyCode.LeftShift)||Input.GetKey(KeyCode.RightShift))
         {
-            animator = GetComponentInChildren<Animator>();
             Magnitud /= 0.5f;
         }
 

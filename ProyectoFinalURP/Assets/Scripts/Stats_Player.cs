@@ -7,16 +7,6 @@ public class Stats_Player : MonoBehaviour
     // Start is called before the first frame update
     public int vida = 100;
     public GameObject panel;
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -31,5 +21,9 @@ public class Stats_Player : MonoBehaviour
                 Time.timeScale = 0;
             }
         }
+    }
+    public void VidaVeneno()
+    {
+        vida = vida - 10;
     }
 }
