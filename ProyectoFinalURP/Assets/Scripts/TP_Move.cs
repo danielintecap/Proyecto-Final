@@ -34,6 +34,7 @@ public class TP_Move : MonoBehaviour
 
     void Update()
     {
+        animator = GetComponentInChildren<Animator>();
         //Movimiento Camara 3ra persona
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");

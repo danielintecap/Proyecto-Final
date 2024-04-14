@@ -28,6 +28,7 @@ public class MovimientoFPS_CC : MonoBehaviour
 
     void Update()
     {
+        animator = GetComponentInChildren<Animator>();
         CambioCamaras();
     }
 

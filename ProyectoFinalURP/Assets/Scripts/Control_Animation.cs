@@ -16,6 +16,7 @@ public class Control_Animation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        animator = GetComponentInChildren<Animator>();
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
