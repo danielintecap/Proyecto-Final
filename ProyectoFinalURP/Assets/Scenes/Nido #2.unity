@@ -125,7 +125,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: b97492e2239eff64780e492f58fa9081, type: 2}
 --- !u!1001 &3791216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72789,6 +72789,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6155880350889480776, guid: 76bbb0a4ff2fe6f4eb0bfb961b277676,
         type: 3}
+      propertyPath: vida
+      value: 1000000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6155880350889480776, guid: 76bbb0a4ff2fe6f4eb0bfb961b277676,
+        type: 3}
       propertyPath: panel
       value: 
       objectReference: {fileID: 1306579977}
@@ -72801,6 +72806,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8306787752335582268, guid: 9a7ae037f77257842a50839b8ff2dc16,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6e912f2cdee8683428f5b4db06dbe32c, type: 2}
     - target: {fileID: 8386940980124281344, guid: 9a7ae037f77257842a50839b8ff2dc16,
         type: 3}
       propertyPath: pointerEnemigo

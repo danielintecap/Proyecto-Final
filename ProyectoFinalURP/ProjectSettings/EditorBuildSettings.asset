@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Maquetacion.unity
     guid: 11b7b48eefb7ad448b1fe5c3685db109
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nido #2.unity
     guid: d02a8a242a303fc408c7f6902a4ed8f9
   - enabled: 1
