@@ -15585,6 +15585,11 @@ PrefabInstance:
       propertyPath: pointer
       value: 
       objectReference: {fileID: 138697469}
+    - target: {fileID: 8386940980124281345, guid: 9a7ae037f77257842a50839b8ff2dc16,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8386940980124281346, guid: 9a7ae037f77257842a50839b8ff2dc16,
         type: 3}
       propertyPath: m_RootOrder
@@ -15643,12 +15648,17 @@ PrefabInstance:
     - target: {fileID: 8386940980124281347, guid: 9a7ae037f77257842a50839b8ff2dc16,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8386940980124281351, guid: 9a7ae037f77257842a50839b8ff2dc16,
         type: 3}
       propertyPath: m_Name
       value: Aliados
+      objectReference: {fileID: 0}
+    - target: {fileID: 8386940980124281351, guid: 9a7ae037f77257842a50839b8ff2dc16,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a7ae037f77257842a50839b8ff2dc16, type: 3}
