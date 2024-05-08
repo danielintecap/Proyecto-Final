@@ -323,6 +323,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3ra Persona
       objectReference: {fileID: 0}
+    - target: {fileID: 2922882111264296263, guid: 76bbb0a4ff2fe6f4eb0bfb961b277676,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3072274705939826578, guid: 76bbb0a4ff2fe6f4eb0bfb961b277676,
         type: 3}
       propertyPath: m_RootOrder
@@ -396,6 +401,16 @@ PrefabInstance:
     - target: {fileID: 4809078787261692738, guid: 76bbb0a4ff2fe6f4eb0bfb961b277676,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8353458573976146075, guid: 76bbb0a4ff2fe6f4eb0bfb961b277676,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776682841002628426, guid: 76bbb0a4ff2fe6f4eb0bfb961b277676,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
