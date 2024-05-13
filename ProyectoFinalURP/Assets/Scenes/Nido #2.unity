@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 203844588}
-  m_IndirectSpecularColor: {r: 0.067819566, g: 0.27394518, b: 0.48464394, a: 1}
+  m_IndirectSpecularColor: {r: 0.06781944, g: 0.27394506, b: 0.484644, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7222,6 +7222,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 207084783}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &208911309 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1524311292412097080, guid: 76bbb0a4ff2fe6f4eb0bfb961b277676,
+    type: 3}
+  m_PrefabInstance: {fileID: 7816093066820733849}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &210479195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10071,7 +10077,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7127bcfaab254a148be5dd41341d4005,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7127bcfaab254a148be5dd41341d4005,
         type: 3}
@@ -72608,12 +72614,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2141786566}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1123389281628639201 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7201048692668400760, guid: 76bbb0a4ff2fe6f4eb0bfb961b277676,
-    type: 3}
-  m_PrefabInstance: {fileID: 7816093066820733849}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1603096800379341157 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2932840302394929801, guid: ce1162e9b3e54b04bbec3c0df4072098,
@@ -72631,27 +72631,52 @@ PrefabInstance:
         type: 3}
       propertyPath: pointer
       value: 
-      objectReference: {fileID: 1123389281628639201}
+      objectReference: {fileID: 208911309}
+    - target: {fileID: 2932840301235630363, guid: ce1162e9b3e54b04bbec3c0df4072098,
+        type: 3}
+      propertyPath: Distancia_Disparo
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4507209034251826553, guid: ce1162e9b3e54b04bbec3c0df4072098,
         type: 3}
       propertyPath: pointer
       value: 
-      objectReference: {fileID: 1123389281628639201}
+      objectReference: {fileID: 208911309}
+    - target: {fileID: 4507209034251826553, guid: ce1162e9b3e54b04bbec3c0df4072098,
+        type: 3}
+      propertyPath: Distancia_Disparo
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4507209035453610236, guid: ce1162e9b3e54b04bbec3c0df4072098,
         type: 3}
       propertyPath: pointer
       value: 
-      objectReference: {fileID: 1123389281628639201}
+      objectReference: {fileID: 208911309}
+    - target: {fileID: 4507209035453610236, guid: ce1162e9b3e54b04bbec3c0df4072098,
+        type: 3}
+      propertyPath: Distancia_Disparo
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4507209035628325384, guid: ce1162e9b3e54b04bbec3c0df4072098,
         type: 3}
       propertyPath: pointer
       value: 
-      objectReference: {fileID: 1123389281628639201}
+      objectReference: {fileID: 208911309}
+    - target: {fileID: 4507209035628325384, guid: ce1162e9b3e54b04bbec3c0df4072098,
+        type: 3}
+      propertyPath: Distancia_Disparo
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4507209035758145320, guid: ce1162e9b3e54b04bbec3c0df4072098,
         type: 3}
       propertyPath: pointer
       value: 
-      objectReference: {fileID: 1123389281628639201}
+      objectReference: {fileID: 208911309}
+    - target: {fileID: 4507209035758145320, guid: ce1162e9b3e54b04bbec3c0df4072098,
+        type: 3}
+      propertyPath: Distancia_Disparo
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4507209035836149864, guid: ce1162e9b3e54b04bbec3c0df4072098,
         type: 3}
       propertyPath: m_RootOrder
@@ -72716,7 +72741,12 @@ PrefabInstance:
         type: 3}
       propertyPath: pointer
       value: 
-      objectReference: {fileID: 1123389281628639201}
+      objectReference: {fileID: 208911309}
+    - target: {fileID: 4507209035965370119, guid: ce1162e9b3e54b04bbec3c0df4072098,
+        type: 3}
+      propertyPath: Distancia_Disparo
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce1162e9b3e54b04bbec3c0df4072098, type: 3}
 --- !u!1001 &7816093066820733849
@@ -72819,7 +72849,7 @@ PrefabInstance:
         type: 3}
       propertyPath: pointer
       value: 
-      objectReference: {fileID: 1123389281628639201}
+      objectReference: {fileID: 0}
     - target: {fileID: 8386940980124281346, guid: 9a7ae037f77257842a50839b8ff2dc16,
         type: 3}
       propertyPath: m_RootOrder

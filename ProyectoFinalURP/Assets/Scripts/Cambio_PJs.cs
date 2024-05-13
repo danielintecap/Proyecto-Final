@@ -5,7 +5,9 @@ using UnityEngine;
 public class Cambio_PJs : MonoBehaviour
 {
     public GameObject Chloe, Arco, Ballesta;
-    public GameObject DJ, Bazuca, Hacha;
+    public GameObject DJ;
+    public GameObject Hacha;
+    public GameObject Bazuca;
     public GameObject Luis;
     public GameObject IA_Chloe;
     public GameObject IA_DJ;
@@ -21,6 +23,7 @@ public class Cambio_PJs : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (Input.GetKeyDown(KeyCode.J))
         {
             animator = GetComponentInChildren<Animator>();
@@ -47,8 +50,8 @@ public class Cambio_PJs : MonoBehaviour
                 animator.SetBool("Boost", true);
             }
         }
-
-        if (Input.GetKeyDown(KeyCode.K))
+        
+        if (Input.GetKey(KeyCode.K))
         {
             animator = GetComponentInChildren<Animator>();
             Chloe.SetActive(false);
@@ -59,22 +62,22 @@ public class Cambio_PJs : MonoBehaviour
             IA_Chloe.SetActive(true);
             IA_DJ.SetActive(false);
             IA_Luis.SetActive(true);
-
+            
             //armas
-            if (Input.GetKey("1"))
+            if (Input.GetKey(KeyCode.Q))
             {
                 Bazuca.SetActive(true);
                 Hacha.SetActive(false);
                 animator.SetBool("Boost", false);
             }
-            if (Input.GetKey("2"))
+            if (Input.GetKey(KeyCode.E))
             {
                 Hacha.SetActive(true);
                 Bazuca.SetActive(false);
                 animator.SetBool("Boost", true);
             }
         }
-
+        
         if (Input.GetKeyDown(KeyCode.L))
         {
             animator = GetComponentInChildren<Animator>();
