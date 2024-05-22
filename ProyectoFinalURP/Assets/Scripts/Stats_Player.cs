@@ -5,8 +5,9 @@ using UnityEngine;
 public class Stats_Player : MonoBehaviour
 {
     // Start is called before the first frame update
-    public int vida = 100;
+    public float vida = 100f;
     public GameObject panel;
+    public static float vidaMaxima = 100f;
 
 
     private void OnTriggerStay(Collider other)
@@ -33,6 +34,18 @@ public class Stats_Player : MonoBehaviour
                 panel.SetActive(true);
                 Time.timeScale = 0;
             }
+        }
+
+    }
+
+    public void RecibirCura(float cura)
+
+    {
+        vida += cura;
+
+        if (vida > vidaMaxima)
+        {
+            vida = vidaMaxima;
         }
 
     }
