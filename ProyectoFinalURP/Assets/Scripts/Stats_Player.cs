@@ -5,8 +5,9 @@ using UnityEngine;
 public class Stats_Player : MonoBehaviour
 {
     // Start is called before the first frame update
-    public int vida = 100;
+    public static float vida = 100;
     public GameObject panel;
+    public static float vidaMaxima = 100;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -25,5 +26,17 @@ public class Stats_Player : MonoBehaviour
     public void VidaVeneno()
     {
         vida = vida - 10;
+    }
+
+    public void RecibirCura(float cura)
+
+    {
+        vida += cura;
+
+        if (vida > vidaMaxima)
+        {
+            vida = vidaMaxima;
+        }
+
     }
 }
