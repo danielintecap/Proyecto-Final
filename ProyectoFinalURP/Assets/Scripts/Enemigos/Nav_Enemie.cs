@@ -9,8 +9,10 @@ public class Nav_Enemie : MonoBehaviour
     private NavMeshAgent Agent;
     public Transform pointer;
     public float LookRadius = 20f;
-    public float Distancia_Disparo = 4f;
+    public float Distancia_Disparo = 10f;
     public Animator animator;
+    public GameObject bala;
+    public Transform pointerBala;
 
     public float tiempo;
     public float tiempoRestante;
@@ -38,6 +40,7 @@ public class Nav_Enemie : MonoBehaviour
             {
                 animator.SetBool("Disparo", true);
                 Agent.speed = 0f;
+                DisparoBala();
             }
             else
             {
@@ -66,6 +69,15 @@ public class Nav_Enemie : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, 1f);
     }
 
+    void DisparoBala()
+    {
+        tiempoRestante = tiempoRestante - Time.deltaTime;
+        if(tiempoRestante <= 0)
+        {
+            Instantiate(bala, pointerBala.position, transform.rotation);
+            Resetear();
+        }
+    }
     void Resetear()
     {
         tiempoRestante = tiempo;

@@ -5,38 +5,36 @@ using UnityEngine;
 public class Stats_Player : MonoBehaviour
 {
     // Start is called before the first frame update
-    public static float vida = 100;
+    public int vida = 100;
     public GameObject panel;
-    public static float vidaMaxima = 100;
 
-    private void OnCollisionEnter(Collision collision)
+
+    private void OnTriggerStay(Collider other)
     {
-        if(collision.transform.tag == "BalaEnemigo")
+        if (other.transform.tag == "AtaqueEnemigoRake")
         {
-            vida = vida - 10;
-            Destroy(collision.transform.gameObject);
+            vida = vida - 1;
 
-            if(vida == 0)
+
+            if (vida == 0)
             {
                 panel.SetActive(true);
                 Time.timeScale = 0;
             }
         }
-    }
-    public void VidaVeneno()
-    {
-        vida = vida - 10;
-    }
 
-    public void RecibirCura(float cura)
-
-    {
-        vida += cura;
-
-        if (vida > vidaMaxima)
+        if (other.transform.tag == "AtaqueEnemigoLizard")
         {
-            vida = vidaMaxima;
+            vida = vida - 5;
+
+
+            if (vida == 0)
+            {
+                panel.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
 
     }
+
 }
