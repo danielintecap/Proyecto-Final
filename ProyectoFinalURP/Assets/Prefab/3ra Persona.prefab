@@ -1732,18 +1732,7 @@ Animator:
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
-    are already bound by a Humanoid avatar. These transforms can only be changed
-    by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-    'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
-    'mixamorig:LeftHandPinky2'\n\tTransform 'mixamorig:RightHandRing2'\n\tTransform
-    'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:LeftHandThumb3'\n\tTransform
-    'mixamorig:RightArm'\n\tand more ...\n\tFrom animation clip 'Idle_Hacha'\n\tFrom
-    animation clip 'Walk_Hacha'\n\tFrom animation clip 'Run_Hacha'\n\tFrom animation
-    clip 'Jump_Hacha'\n\tFrom animation clip 'Falling_Hacha'\n\tFrom animation clip
-    'Landing_Hacha'\n\tFrom animation clip 'Attack1_Hacha'\n\tFrom animation clip
-    'Attack2_Hacha'\n\tFrom animation clip 'Bloquear_Hacha'\n\tFrom animation clip
-    'Equipar_Hacha'\n\tand more ..."
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
@@ -9556,7 +9545,6 @@ MonoBehaviour:
   IA_DJ: {fileID: 0}
   IA_Luis: {fileID: 0}
   animator: {fileID: 0}
-  numero: 0
 --- !u!1 &5864123377445222373
 GameObject:
   m_ObjectHideFlags: 0
@@ -15439,18 +15427,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 79b57cb7edf67cc4095ca09fff98cbd8,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 79b57cb7edf67cc4095ca09fff98cbd8,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 79b57cb7edf67cc4095ca09fff98cbd8,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 79b57cb7edf67cc4095ca09fff98cbd8,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.039
+      value: -0.038999908
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 79b57cb7edf67cc4095ca09fff98cbd8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.005
+      value: -0.005003738
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 79b57cb7edf67cc4095ca09fff98cbd8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.676
+      value: -0.6760004
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 79b57cb7edf67cc4095ca09fff98cbd8,
         type: 3}
@@ -15460,17 +15463,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 79b57cb7edf67cc4095ca09fff98cbd8,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.000000029569488
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 79b57cb7edf67cc4095ca09fff98cbd8,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.00000014528631
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 79b57cb7edf67cc4095ca09fff98cbd8,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.000000014122632
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 79b57cb7edf67cc4095ca09fff98cbd8,
         type: 3}
