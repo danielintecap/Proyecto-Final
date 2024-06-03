@@ -6,7 +6,8 @@ public class Stats_Player : MonoBehaviour
 {
     // Start is called before the first frame update
     public float vida = 100f;
-    public GameObject panel;
+    public GameObject panelMuerte;
+    public GameObject panelPausa;
     public static float vidaMaxima = 100f;
 
 
@@ -19,7 +20,7 @@ public class Stats_Player : MonoBehaviour
 
             if (vida == 0)
             {
-                panel.SetActive(true);
+                panelMuerte.SetActive(true);
                 Time.timeScale = 0;
             }
         }
@@ -31,15 +32,23 @@ public class Stats_Player : MonoBehaviour
 
             if (vida == 0)
             {
-                panel.SetActive(true);
+                panelMuerte.SetActive(true);
                 Time.timeScale = 0;
             }
         }
 
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            panelPausa.SetActive(true);
+        }
+
+    }
+    public void PararTiempo()
+    {
+        Time.timeScale = 0;
     }
 
     public void RecibirCura(float cura)
-
     {
         vida += cura;
 
@@ -47,7 +56,5 @@ public class Stats_Player : MonoBehaviour
         {
             vida = vidaMaxima;
         }
-
     }
-
 }
