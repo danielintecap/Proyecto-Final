@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class Stats_Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public float vida = 100f;
-    public GameObject panelMuerte;
-    public GameObject panelPausa;
+    public static Stats_Player Instance;
+    public static float vida = 100f;
     public static float vidaMaxima = 100f;
 
+    public static float puntos = 0;
+
+    public GameObject panelMuerte;
+    public GameObject panelPausa;
 
     private void OnTriggerStay(Collider other)
     {
