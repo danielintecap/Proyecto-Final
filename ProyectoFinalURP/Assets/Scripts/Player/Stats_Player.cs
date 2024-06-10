@@ -12,9 +12,29 @@ public class Stats_Player : MonoBehaviour
 
     public GameObject panelMuerte;
     public GameObject panelPausa;
+    public GameObject panelInicio;
+
+    public void Update()
+    {
+        Pausa();
+    }
+    public void Pausa()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            panelPausa.SetActive(true);
+            panelInicio.SetActive(true);
+        }
+    }
 
     private void OnTriggerStay(Collider other)
     {
+        /*if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            panelPausa.SetActive(true);
+            panelInicio.SetActive(true);
+        }*/
+        
         if (other.transform.tag == "AtaqueEnemigoRake")
         {
             vida = vida - 1;
@@ -39,10 +59,7 @@ public class Stats_Player : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            panelPausa.SetActive(true);
-        }
+        
 
     }
     public void PararTiempo()
