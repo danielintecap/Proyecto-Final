@@ -8,12 +8,17 @@ public class Explosion : MonoBehaviour
     public float delay = 3f;
     public float rango = 20f;
     public float fuerzaExplosion = 30f;
-
+    // Start is called before the first frame update
     void Start()
     {
         Invoke("ExplosionGranada", delay);
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
     void ExplosionGranada()
     {
         //Busca objetos que tengan collider y los agrupa

@@ -29,7 +29,7 @@ public class TP_Move : MonoBehaviour
     void Start()
     {
         animator = GetComponentInChildren<Animator>();
-        //Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()
