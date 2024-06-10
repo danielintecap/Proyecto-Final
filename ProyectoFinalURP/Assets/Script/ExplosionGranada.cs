@@ -21,7 +21,7 @@ public class ExplosionGranada : MonoBehaviour
 
     }
 
-    void ExplotarGranada()
+    public void ExplotarGranada()
     {
         //Buscar objetos que tengan collider y que estén adentro del radio y agruparlos en el grupo llamado "colliders"
         Collider[] colliders = Physics.OverlapSphere(transform.position, radius);

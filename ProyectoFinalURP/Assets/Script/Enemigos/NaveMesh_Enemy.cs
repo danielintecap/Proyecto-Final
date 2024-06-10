@@ -17,12 +17,8 @@ public class NaveMesh_Enemy : MonoBehaviour
 
     public int vida;
 
-    public GameObject ColliderAttackL;
-    public GameObject ColliderAttackR;
-    public GameObject ParticulaR;
-    public GameObject ParticulaL;
-    public Transform R;
-    public Transform L;
+
+
 
 
 
@@ -49,17 +45,13 @@ public class NaveMesh_Enemy : MonoBehaviour
             if (distancia <= DistanciaDisparo)
             {
                 animator.SetBool("Disparo", true);
-                ColliderAttackL.SetActive(true);
-                ColliderAttackR.SetActive(true);
+
                 Agent.speed = 0f;
-                Instantiate(ParticulaR, R.position, R.rotation);
-                Instantiate(ParticulaL, L.position, L.rotation);
             }
             else
             {
                 animator.SetBool("Disparo", false);
-                ColliderAttackL.SetActive(false);
-                ColliderAttackR.SetActive(false);
+
                 /*ParticulaR.Play();
                 ParticulaL.Play();*/
             }

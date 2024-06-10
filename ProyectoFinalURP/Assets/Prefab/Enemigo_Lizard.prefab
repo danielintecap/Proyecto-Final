@@ -32,114 +32,6 @@ Transform:
   m_Father: {fileID: 6527106791154300619}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6527106790793554061
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6527106790793554060}
-  - component: {fileID: 6527106790793554062}
-  - component: {fileID: 6527106790793554063}
-  m_Layer: 0
-  m_Name: ColliderAttackL
-  m_TagString: AtaqueEnemigoLizard
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6527106790793554060
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6527106790793554061}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.272, y: 0.035, z: -0.077}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3547568173358836529}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &6527106790793554062
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6527106790793554061}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!135 &6527106790793554063
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6527106790793554061}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &6527106790902559788
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6527106790902559791}
-  - component: {fileID: 6527106790902559785}
-  - component: {fileID: 6527106790902559790}
-  m_Layer: 0
-  m_Name: ColliderAttackR
-  m_TagString: AtaqueEnemigoLizard
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6527106790902559791
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6527106790902559788}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.272, y: 0.034, z: 0.077}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3638977416968672285}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &6527106790902559785
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6527106790902559788}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!135 &6527106790902559790
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6527106790902559788}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6527106791154300620
 GameObject:
   m_ObjectHideFlags: 0
@@ -225,14 +117,6 @@ MonoBehaviour:
   tiempo: 0.8
   tiempoRestante: 0.8
   vida: 100
-  ColliderAttackL: {fileID: 6527106790793554061}
-  ColliderAttackR: {fileID: 6527106790902559788}
-  ParticulaR: {fileID: 2504214343621411470, guid: 3ed0d324122d7b24eaec75c55c74aafc,
-    type: 3}
-  ParticulaL: {fileID: 2504214343621411470, guid: 3ed0d324122d7b24eaec75c55c74aafc,
-    type: 3}
-  R: {fileID: 6527106790902559791}
-  L: {fileID: 6527106790793554060}
 --- !u!195 &6527106791154300623
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -352,18 +236,6 @@ PrefabInstance:
 --- !u!4 &949890334386130256 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6321436713527627283, guid: 7dc7b54399d54194e9f2619f1832e8d5,
-    type: 3}
-  m_PrefabInstance: {fileID: 6527106790172443459}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &3547568173358836529 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7759578454626674802, guid: 7dc7b54399d54194e9f2619f1832e8d5,
-    type: 3}
-  m_PrefabInstance: {fileID: 6527106790172443459}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &3638977416968672285 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7499847587513685854, guid: 7dc7b54399d54194e9f2619f1832e8d5,
     type: 3}
   m_PrefabInstance: {fileID: 6527106790172443459}
   m_PrefabAsset: {fileID: 0}

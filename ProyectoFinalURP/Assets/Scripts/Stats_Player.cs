@@ -7,14 +7,13 @@ public class Stats_Player : MonoBehaviour
     // Start is called before the first frame update
     public float vida = 100f;
     public GameObject panel;
-    public static float vidaMaxima = 100f;
 
 
     private void OnTriggerStay(Collider other)
     {
         if (other.transform.tag == "AtaqueEnemigoRake")
         {
-            vida = vida - 1;
+            vida = vida - 0.5f;
 
 
             if (vida == 0)
@@ -26,7 +25,7 @@ public class Stats_Player : MonoBehaviour
 
         if (other.transform.tag == "AtaqueEnemigoLizard")
         {
-            vida = vida - 5;
+            vida = vida - 0.5f;
 
 
             if (vida == 0)
@@ -34,18 +33,6 @@ public class Stats_Player : MonoBehaviour
                 panel.SetActive(true);
                 Time.timeScale = 0;
             }
-        }
-
-    }
-
-    public void RecibirCura(float cura)
-
-    {
-        vida += cura;
-
-        if (vida > vidaMaxima)
-        {
-            vida = vidaMaxima;
         }
 
     }
