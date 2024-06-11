@@ -60042,7 +60042,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1421777217}
         m_TargetAssemblyTypeName: CambioEscenas, Assembly-CSharp
-        m_MethodName: CargarEscena1
+        m_MethodName: CargarEscenaLobby
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
