@@ -5,27 +5,10 @@ using UnityEngine;
 public class Stats_Player : MonoBehaviour
 {
     // Start is called before the first frame update
-    public static float vida = 100f;
-    public static float vidaMaxima = 100f;
-    public static float puntos;
-
+    public float vida = 100f;
     public GameObject panel;
-    public GameObject panelPausa;
-    public GameObject panelInicio;
 
-    public void Update()
-    {
 
-    }
-
-    public void Pausa()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            panelInicio.SetActive(true);
-            panelPausa.SetActive(true);
-        }
-    }
     private void OnTriggerStay(Collider other)
     {
         if (other.transform.tag == "AtaqueEnemigoRake")
@@ -53,15 +36,5 @@ public class Stats_Player : MonoBehaviour
         }
 
     }
-    public void RecibirCura(float cura)
 
-    {
-        vida += cura;
-
-        if (vida > vidaMaxima)
-        {
-            vida = vidaMaxima;
-        }
-
-    }
 }

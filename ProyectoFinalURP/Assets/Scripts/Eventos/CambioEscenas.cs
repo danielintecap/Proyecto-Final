@@ -28,24 +28,8 @@ public class CambioEscenas : MonoBehaviour
         Paneloptions.SetActive(false);
     }
 
-    public void CargarEscenaLobby()
+    public void CargarEscena1()
     {
         SceneManager.LoadScene(1);
-    }
-    public void CargarEscenaNido1()
-    {
-        SceneManager.LoadScene(2);
-    }
-    public void CargarEscenaNido2()
-    {
-        SceneManager.LoadScene(3);
-    }
-    public void CargarEscenaCentralElectrica()
-    {
-        SceneManager.LoadScene(4);
-    }
-    public void CargarEscenaLaboratorio()
-    {
-        SceneManager.LoadScene(0);
     }
 }
