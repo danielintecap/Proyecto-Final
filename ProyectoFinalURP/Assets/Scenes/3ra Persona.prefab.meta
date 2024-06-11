@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:ProyectoFinalURP/Assets/Audios_Ambient.meta
+guid: ee27a13beee75414089fea9bdd1cf31f
+folderAsset: yes
+DefaultImporter:
+========
 guid: da7cb944da63cc64d938928777abe2fd
 PrefabImporter:
+>>>>>>>> 62b534692100a80e701df325d9d8c7358319f768:ProyectoFinalURP/Assets/Scenes/3ra Persona.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

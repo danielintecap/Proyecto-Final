@@ -11,16 +11,18 @@ public class Stats_Player : MonoBehaviour
 
     public GameObject panel;
     public GameObject panelPausa;
+    public GameObject panelInicio;
 
     public void Update()
     {
-        Pausa();
+
     }
 
     public void Pausa()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            panelInicio.SetActive(true);
             panelPausa.SetActive(true);
         }
     }
@@ -62,5 +64,4 @@ public class Stats_Player : MonoBehaviour
         }
 
     }
-
 }
