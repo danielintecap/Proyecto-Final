@@ -89531,6 +89531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panel: {fileID: 0}
   panelPausa: {fileID: 0}
+  panelInicio: {fileID: 0}
 --- !u!1 &4853369997047155478
 GameObject:
   m_ObjectHideFlags: 0
