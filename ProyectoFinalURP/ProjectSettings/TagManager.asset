@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Enemigo
   - Ground
+  - AtaqueEnemigoRake
+  - AtaqueEnemigoLizard
+  - BalaEnemigo
+  - Bala
   layers:
   - Default
   - TransparentFX
