@@ -5,64 +5,27 @@ using UnityEngine.UI;
 
 public class UI_Stats : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public static float vida = 100f;
-    public static float vidaMaxima = 100f;
-    public static float puntos;
+    public Text textoVida;
+    public Text textoPuntos;
 
-    public GameObject panel;
-    public GameObject panelPausa;
-    public GameObject panelInicio;
+    public Image barraVida;
+    public float vidaActual;
+    public float vidaMaxima = 100f;
 
-    public void Update()
+
+    void Start()
     {
-
+        
     }
 
-    public void Pausa()
+    void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            panelInicio.SetActive(true);
-            panelPausa.SetActive(true);
-        }
-    }
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.transform.tag == "AtaqueEnemigoRake")
-        {
-            vida = vida - 0.5f;
+        //vida con texto
+        textoVida.text ="Vida: " + Stats_Player.vida;
+        textoPuntos.text = "Puntos: " + Stats_Player.puntos;
 
-
-            if (vida == 0)
-            {
-                panel.SetActive(true);
-                Time.timeScale = 0;
-            }
-        }
-
-        if (other.transform.tag == "AtaqueEnemigoLizard")
-        {
-            vida = vida - 0.5f;
-
-
-            if (vida == 0)
-            {
-                panel.SetActive(true);
-                Time.timeScale = 0;
-            }
-        }
-
-    }
-    public void RecibirCura(float cura)
-
-    {
-        vida += cura;
-
-        if (vida > vidaMaxima)
-        {
-            vida = vidaMaxima;
-        }
-
+        //vida con imagen de barra
+        vidaActual = Stats_Player.vida;
+        barraVida.fillAmount = vidaActual / vidaMaxima;
     }
 }

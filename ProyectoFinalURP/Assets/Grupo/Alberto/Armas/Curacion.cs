@@ -9,11 +9,11 @@ public class Curacion : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && other.GetComponent<UI_Stats>())
+        if (other.CompareTag("Player") && other.GetComponent<Stats_Player>())
 
 
         {
-            other.GetComponent<UI_Stats>().RecibirCura(CantidadCura);
+            other.GetComponent<Stats_Player>().RecibirCura(CantidadCura);
             Destroy(gameObject);
         }
     }
