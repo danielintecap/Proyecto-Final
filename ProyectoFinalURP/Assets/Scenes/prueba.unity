@@ -370,11 +370,11 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
---- !u!4 &655758136 stripped
+--- !u!4 &1029805308 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ac394befbb06bae4fa88899e0813e2ed,
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 79b57cb7edf67cc4095ca09fff98cbd8,
     type: 3}
-  m_PrefabInstance: {fileID: 1095345385}
+  m_PrefabInstance: {fileID: 1176258392}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1095345385
 PrefabInstance:
@@ -836,6 +836,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aliados IA
       objectReference: {fileID: 0}
+    - target: {fileID: 373838929407916285, guid: 711b3e1609851134c98fd2521468e859,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8166225573333770477, guid: 711b3e1609851134c98fd2521468e859,
         type: 3}
       propertyPath: m_IsActive
@@ -843,11 +848,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 711b3e1609851134c98fd2521468e859, type: 3}
---- !u!4 &1890641277 stripped
+--- !u!4 &1353173757 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 79b57cb7edf67cc4095ca09fff98cbd8,
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2e8dd4e252ecbce49afbe3d279e78ac1,
     type: 3}
-  m_PrefabInstance: {fileID: 1176258392}
+  m_PrefabInstance: {fileID: 1894922558}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1524986151 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7201965838468635214, guid: 9578537b6112e8741a3bf3d65157242d,
+    type: 3}
+  m_PrefabInstance: {fileID: 8222686850091416783}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1894922558
 PrefabInstance:
@@ -1053,11 +1064,11 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
---- !u!4 &2146577197 stripped
+--- !u!4 &2062749375 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2e8dd4e252ecbce49afbe3d279e78ac1,
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ac394befbb06bae4fa88899e0813e2ed,
     type: 3}
-  m_PrefabInstance: {fileID: 1894922558}
+  m_PrefabInstance: {fileID: 1095345385}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &2921893784368792
 Transform:
@@ -3403,7 +3414,7 @@ Transform:
   - {fileID: 1567963579735500692}
   - {fileID: 3128871354526597803}
   - {fileID: 3465472656243481450}
-  - {fileID: 2146577197}
+  - {fileID: 1353173757}
   m_Father: {fileID: 8512538018969921694}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3656,12 +3667,6 @@ Transform:
   m_Father: {fileID: 216887691940170127}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1292075534629643905 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7201965838468635214, guid: 9578537b6112e8741a3bf3d65157242d,
-    type: 3}
-  m_PrefabInstance: {fileID: 8222686850091416783}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1316221988777485856
 GameObject:
   m_ObjectHideFlags: 0
@@ -5882,7 +5887,7 @@ Transform:
   - {fileID: 7548712380860866226}
   - {fileID: 12229742557923328}
   - {fileID: 7601933780704434244}
-  - {fileID: 655758136}
+  - {fileID: 2062749375}
   m_Father: {fileID: 6846457264766664800}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6720,7 +6725,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1292075534629643905}
+  - {fileID: 1524986151}
   - {fileID: 2348348891232586590}
   m_Father: {fileID: 7433473685603571867}
   m_RootOrder: 3
@@ -9248,7 +9253,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4193910944973439998}
-  - {fileID: 1890641277}
+  - {fileID: 1029805308}
   m_Father: {fileID: 2707556108937626399}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11819,8 +11824,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a432f0250f138548931d3981855ff2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 100
   panel: {fileID: 0}
+  panelPausa: {fileID: 0}
+  panelInicio: {fileID: 0}
 --- !u!4 &6163805583009731571
 Transform:
   m_ObjectHideFlags: 0
