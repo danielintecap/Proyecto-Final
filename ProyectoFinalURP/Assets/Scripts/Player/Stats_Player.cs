@@ -11,6 +11,7 @@ public class Stats_Player : MonoBehaviour
 
     public GameObject panel;
     public GameObject panelPausa;
+    public GameObject mapa;
 
     public void Update()
     {
@@ -22,6 +23,10 @@ public class Stats_Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             panelPausa.SetActive(true);
+        }
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            mapa.SetActive(true);
         }
     }
     private void OnTriggerStay(Collider other)
