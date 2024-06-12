@@ -55,6 +55,18 @@ public class Stats_Player : MonoBehaviour
             }
         }
 
+        if (other.transform.tag == "AtaqueEnemigoSpiderGreen")
+        {
+            vida = vida - 0.1f;
+
+
+            if (vida == 0)
+            {
+                panel.SetActive(true);
+                Time.timeScale = 0;
+            }
+        }
+
     }
     public void RecibirCura(float cura)
 
