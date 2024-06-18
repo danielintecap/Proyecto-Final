@@ -16,7 +16,9 @@ public class NaveMesh_Enemy : MonoBehaviour
     public float tiempoRestante;
 
     public int vida;
+    public int contador;
 
+    public int contadorrestante;
 
 
 
@@ -28,6 +30,7 @@ public class NaveMesh_Enemy : MonoBehaviour
     {
         Agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         animator = GetComponentInChildren<Animator>();
+        contador = ConteoEnemigos.CETRake;
     }
 
     // Update is called once per frame
@@ -97,6 +100,7 @@ public class NaveMesh_Enemy : MonoBehaviour
 
             if (vida == 0)
             {
+                contador = contador - 1;
                 Destroy(gameObject);
             }
         }

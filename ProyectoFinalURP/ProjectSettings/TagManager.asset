@@ -10,6 +10,7 @@ TagManager:
   - AtaqueEnemigoLizard
   - BalaEnemigo
   - Bala
+  - AtaqueEnemigoSpiderGreen
   layers:
   - Default
   - TransparentFX
