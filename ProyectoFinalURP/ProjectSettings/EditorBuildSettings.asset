@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nido_#1.unity
     guid: e958b5493a3797d4bb9d668849b6faa4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nido #2.unity
     guid: d02a8a242a303fc408c7f6902a4ed8f9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Central electrica.unity
     guid: 94671c9bbf0ae37418eb653f3ac2d21c
   m_configObjects: {}

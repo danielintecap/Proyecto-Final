@@ -48919,7 +48919,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4536878357565988129
 Transform:
   m_ObjectHideFlags: 0
@@ -49222,6 +49222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panel: {fileID: 0}
   panelPausa: {fileID: 0}
+  mapa: {fileID: 0}
 --- !u!1 &4853369997089780159
 GameObject:
   m_ObjectHideFlags: 0
@@ -54980,7 +54981,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8045487680330013747
 Transform:
   m_ObjectHideFlags: 0
@@ -56899,7 +56900,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_WarningMessage: 
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed
+    by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
+    'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
+    'mixamorig:LeftHandPinky2'\n\tTransform 'mixamorig:RightHandRing2'\n\tTransform
+    'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:LeftHandThumb3'\n\tTransform
+    'mixamorig:RightArm'\n\tand more ...\n\tFrom animation clip 'Idle_Hacha'\n\tFrom
+    animation clip 'Walk_Hacha'\n\tFrom animation clip 'Run_Hacha'\n\tFrom animation
+    clip 'Jump_Hacha'\n\tFrom animation clip 'Falling_Hacha'\n\tFrom animation clip
+    'Landing_Hacha'\n\tFrom animation clip 'Attack1_Hacha'\n\tFrom animation clip
+    'Attack2_Hacha'\n\tFrom animation clip 'Bloquear_Hacha'\n\tFrom animation clip
+    'Equipar_Hacha'\n\tand more ..."
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0

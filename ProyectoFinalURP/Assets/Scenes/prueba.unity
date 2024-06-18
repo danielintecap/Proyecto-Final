@@ -6585,7 +6585,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &2933420565360825931
 GameObject:
   m_ObjectHideFlags: 0
@@ -11826,7 +11826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panel: {fileID: 0}
   panelPausa: {fileID: 0}
-  panelInicio: {fileID: 0}
+  mapa: {fileID: 0}
 --- !u!4 &6163805583009731571
 Transform:
   m_ObjectHideFlags: 0
@@ -15515,7 +15515,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!33 &8369626311036048617
 MeshFilter:
   m_ObjectHideFlags: 0
