@@ -55,7 +55,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 688b1bf24de608b4a80622231f482018, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Direccion: {x: 0, y: 0, z: 4}
+  Direccion: {x: 0, y: 0, z: 6}
   speed: 6
 --- !u!23 &5675684636302337457
 MeshRenderer:

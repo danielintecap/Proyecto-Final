@@ -18,7 +18,7 @@ public class Cambio_PJs : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("1"))
+        if (Input.GetKeyDown(KeyCode.J))
         {
             animator = GetComponentInChildren<Animator>();
             Chloe.SetActive(true);
@@ -26,7 +26,7 @@ public class Cambio_PJs : MonoBehaviour
             Luis.SetActive(false);
         }
 
-        if (Input.GetKeyDown("2"))
+        if (Input.GetKeyDown(KeyCode.K))
         {
             animator = GetComponentInChildren<Animator>();
             Chloe.SetActive(false);
@@ -34,7 +34,7 @@ public class Cambio_PJs : MonoBehaviour
             Luis.SetActive(false);
         }
 
-        if (Input.GetKeyDown("3"))
+        if (Input.GetKeyDown(KeyCode.L))
         {
             animator = GetComponentInChildren<Animator>();
             Chloe.SetActive(false);

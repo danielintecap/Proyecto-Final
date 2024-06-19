@@ -9,9 +9,10 @@ public class Stats_Player : MonoBehaviour
     public static float vidaMaxima = 100f;
     public static float puntos;
 
-    public GameObject panel;
+    public GameObject panelMuerte;
     public GameObject panelPausa;
     public GameObject mapa;
+    public GameObject panelPersonajes;
 
     public void Update()
     {
@@ -28,6 +29,10 @@ public class Stats_Player : MonoBehaviour
         {
             mapa.SetActive(true);
         }
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            panelPersonajes.SetActive(true);
+        }
     }
     private void OnTriggerStay(Collider other)
     {
@@ -38,7 +43,7 @@ public class Stats_Player : MonoBehaviour
 
             if (vida == 0)
             {
-                panel.SetActive(true);
+                panelMuerte.SetActive(true);
                 Time.timeScale = 0;
             }
         }
@@ -50,7 +55,7 @@ public class Stats_Player : MonoBehaviour
 
             if (vida == 0)
             {
-                panel.SetActive(true);
+                panelMuerte.SetActive(true);
                 Time.timeScale = 0;
             }
         }
@@ -62,7 +67,7 @@ public class Stats_Player : MonoBehaviour
 
             if (vida == 0)
             {
-                panel.SetActive(true);
+                panelMuerte.SetActive(true);
                 Time.timeScale = 0;
             }
         }
