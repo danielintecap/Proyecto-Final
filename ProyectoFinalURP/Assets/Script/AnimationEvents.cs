@@ -10,6 +10,11 @@ public class AnimationEvents : DestroySpiderGreen
     public Transform PointerR;
     public Transform PointerL;
     public Transform PointerSpiderGreen;
+    public AudioSource Source;
+    public AudioClip ClipIdle;
+    public AudioClip ClipWatch;
+    public AudioClip ClipWalk;
+    public AudioClip ClipAttack;
 
     public void InstanciarObjetoParticulaR()
     {
@@ -25,5 +30,21 @@ public class AnimationEvents : DestroySpiderGreen
     {
         Instantiate(ParticulaSpiderGreen, PointerSpiderGreen);
         DestruirAraña();
+    }
+
+    public void EfectoIdleRake()
+    {
+        Source.PlayOneShot(ClipIdle);
+    }
+
+    public void EfectoWalkRake()
+    {
+        Source.PlayOneShot(ClipWatch);
+        Source.PlayOneShot(ClipWalk);
+    }
+
+    public void EfectoAttackRake()
+    {
+        Source.PlayOneShot(ClipAttack);
     }
 }
