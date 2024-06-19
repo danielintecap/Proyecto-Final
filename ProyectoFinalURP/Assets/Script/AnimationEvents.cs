@@ -32,18 +32,18 @@ public class AnimationEvents : DestroySpiderGreen
         DestruirAraña();
     }
 
-    public void EfectoIdleRake()
+    public void EfectoIdle()
     {
         Source.PlayOneShot(ClipIdle);
     }
 
-    public void EfectoWalkRake()
+    public void EfectoWalk()
     {
         Source.PlayOneShot(ClipWatch);
         Source.PlayOneShot(ClipWalk);
     }
 
-    public void EfectoAttackRake()
+    public void EfectoAttack()
     {
         Source.PlayOneShot(ClipAttack);
     }

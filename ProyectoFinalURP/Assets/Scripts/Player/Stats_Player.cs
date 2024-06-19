@@ -57,7 +57,7 @@ public class Stats_Player : MonoBehaviour
 
         if (other.transform.tag == "AtaqueEnemigoSpiderGreen")
         {
-            vida = vida - 0.1f;
+            vida = vida - 0.5f;
 
 
             if (vida == 0)
