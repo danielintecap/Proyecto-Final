@@ -16,7 +16,9 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Avatar creation failed:\n\tAmbiguous Transform 'head' and 'Armature/root/spine1/spine2/head'
+      found in hierarchy for human bone 'Head'. Transform name mapped to a human
+      bone must be unique.\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -80,7 +82,1207 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: GameRadyLab(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pencil1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.85063833, y: -0.039602228, z: 0.24372402}
+      rotation: {x: 0.000000021495596, y: -0.18077825, z: 0.000000003951035, w: 0.9835239}
+      scale: {x: 100, y: 100, z: 100}
+    - name: pencil2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.832248, y: -0.042111434, z: -0.13898191}
+      rotation: {x: 0.00000002105017, y: -0.26898807, z: 0.0000000058789213, w: 0.9631435}
+      scale: {x: 100, y: 100, z: 100}
+    - name: paper1.001
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.79505605, y: -0.04263795, z: 0.24163309}
+      rotation: {x: -0.6924895, y: 0.14303294, z: 0.14303297, w: 0.6924894}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: paper2.001
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.8979507, y: -0.039704926, z: -0.17734557}
+      rotation: {x: 0.16492157, y: 0.68760526, z: 0.68760514, w: -0.1649216}
+      scale: {x: 100, y: 100, z: 100}
+    - name: paper3.001
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.8409255, y: -0.04263795, z: -0.16763796}
+      rotation: {x: -0.17267205, y: 0.68569994, z: 0.6856999, w: 0.17267206}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: paper4
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.8931995, y: -0.00535498, z: 0.13088214}
+      rotation: {x: -0.055478964, y: -0.7049269, z: 0.055478964, w: 0.7049271}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: paper5
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.90040654, y: -0.00535498, z: 0.13088214}
+      rotation: {x: -0.055478964, y: -0.7049269, z: 0.055478964, w: 0.7049271}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: paper6
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.8697105, y: -0.00535498, z: 0.13088214}
+      rotation: {x: -0.055478964, y: -0.7049269, z: 0.055478964, w: 0.7049271}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: paper7
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.8584424, y: -0.00535498, z: 0.13088214}
+      rotation: {x: -0.055478964, y: -0.7049269, z: 0.055478964, w: 0.7049271}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: folder_for_paper1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.8953975, y: -0.043374456, z: 0.12969175}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: folder_for_paper2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.8631584, y: -0.043374456, z: 0.12969175}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: board
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.5158133, y: -0.043764777, z: 0.22487731}
+      rotation: {x: -0.6649037, y: -0.2406306, z: -0.2406306, w: 0.6649037}
+      scale: {x: 100, y: 100, z: 100}
+    - name: buttons
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.5273251, y: -0.03643889, z: 0.2515038}
+      rotation: {x: -0.6649945, y: -0.24037959, z: -0.2403796, w: 0.6649945}
+      scale: {x: 100, y: 100, z: 100}
+    - name: conductor
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.4991039, y: -0.03777624, z: 0.21475765}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: rack
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.4335216, y: 0.002693316, z: 0.09076679}
+      rotation: {x: -0.70110506, y: 0.09193377, z: 0.09193377, w: 0.701105}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: screen
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.44239947, y: 0.06403347, z: 0.10450962}
+      rotation: {x: -0.67972976, y: -0.19485237, z: -0.19485238, w: 0.67972976}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: base.001
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.6591212, y: -0.035612173, z: 0.16836658}
+      rotation: {x: -0.6676617, y: -0.23286878, z: -0.23286882, w: 0.6676616}
+      scale: {x: 100, y: 100, z: 100}
+    - name: conductor.001
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.61355805, y: -0.035232224, z: 0.17470779}
+      rotation: {x: -0.66320425, y: 0.2452756, z: 0.24527562, w: 0.66320425}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: rug
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.6702976, y: -0.04338447, z: 0.17715713}
+      rotation: {x: -0.6676617, y: -0.23286878, z: -0.23286882, w: 0.6676616}
+      scale: {x: 100, y: 100, z: 100}
+    - name: wheel.001
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.66738594, y: -0.031257905, z: 0.1654177}
+      rotation: {x: -0.03994487, y: 0.899313, z: 0.017106568, w: -0.43514132}
+      scale: {x: 100, y: 100.00001, z: 100}
+    - name: staff1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.9456442, y: -0.01212717, z: -0.007188469}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: flask2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.8356646, y: -0.00086144544, z: -0.004883617}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: flask3
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.8651973, y: -0.00086144544, z: -0.004883617}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: flask1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.7546287, y: -0.00086144544, z: -0.004883617}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: flask5
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.9208452, y: -0.00086144544, z: -0.004883617}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: staff2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.84089863, y: -0.016403565, z: -0.007188469}
+      rotation: {x: -0.49999994, y: 0.4999998, z: -0.50000006, w: 0.50000024}
+      scale: {x: 100, y: 100, z: 100}
+    - name: flask4
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.89473, y: -0.00086144544, z: -0.004883617}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: atom1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.5636481, y: -0.026521036, z: -0.039777424}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: atom2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.6712337, y: -0.004440734, z: -0.0037980974}
+      rotation: {x: -0.17234531, y: 0.02150986, z: 0.7377381, w: 0.6523626}
+      scale: {x: 100, y: 100, z: 99.99999}
+    - name: atom3
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.6398396, y: 0.0025442448, z: 0.019252032}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: atom4
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.63602966, y: -0.009669164, z: -0.021263985}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: atom5
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.60971725, y: -0.028888235, z: 0.006498754}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: atom6
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.59199834, y: 0.0055604777, z: -0.018307745}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: atom7
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.5636481, y: -0.017427186, z: -0.0021076202}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: atom8
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.6508034, y: -0.039949723, z: 0.0009197891}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: atom9
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.5719045, y: -0.036617167, z: 0.019896537}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: stick9
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.6404763, y: 0.002103677, z: 0.014363617}
+      rotation: {x: -0.04409398, y: -0.7835331, z: 0.19320044, w: 0.5889017}
+      scale: {x: 99.99999, y: 100, z: 100}
+    - name: stick1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.60829026, y: -0.023494193, z: 0.0045775175}
+      rotation: {x: -0.18409856, y: -0.3836413, z: -0.7512041, w: 0.5045984}
+      scale: {x: 100, y: 100.00001, z: 100}
+    - name: stick2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.61370057, y: -0.020373978, z: 0.0076652467}
+      rotation: {x: 0.7733867, y: -0.3933185, z: 0.008532413, w: -0.49709243}
+      scale: {x: 100, y: 100, z: 100.00001}
+    - name: stick3
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.6433308, y: 0.0022032764, z: 0.01702404}
+      rotation: {x: 0.6466167, y: -0.2012565, z: 0.20525265, w: 0.7065791}
+      scale: {x: 99.99999, y: 100, z: 100}
+    - name: stick4
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.6187869, y: -0.029698886, z: 0.005800247}
+      rotation: {x: -0.66848004, y: -0.26432523, z: 0.0747533, w: 0.6911429}
+      scale: {x: 100.00001, y: 100, z: 100}
+    - name: stick5
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.6015569, y: -0.0295007, z: 0.010102689}
+      rotation: {x: -0.04175178, y: 0.44187734, z: 0.8762075, w: 0.1877809}
+      scale: {x: 99.99999, y: 100.00001, z: 100}
+    - name: stick6
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.60225636, y: -0.02743832, z: 0.0076652467}
+      rotation: {x: 0.09014599, y: 0.5122369, z: 0.8415887, w: -0.14565621}
+      scale: {x: 100, y: 100, z: 100}
+    - name: stick7
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.5640611, y: -0.016145268, z: -0.0061208606}
+      rotation: {x: 0.6972595, y: 0.47316968, z: 0.4829674, w: -0.23808035}
+      scale: {x: 100.00001, y: 99.99999, z: 100}
+    - name: bar
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.5095249, y: -0.042182215, z: -0.1111581}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: flask
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.5120327, y: 0.036322825, z: -0.104958616}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hook
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.5116543, y: 0.12418873, z: -0.07203443}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hook2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.5168136, y: 0.04267519, z: -0.09915951}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: needle
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.5117992, y: 0.10749426, z: -0.105364606}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: stick
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.51186013, y: 0.0027981903, z: -0.053778943}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: large_flask
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.67690015, y: -0.027173052, z: -0.07182428}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: base1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.65056837, y: -0.30066922, z: 0.41197878}
+      rotation: {x: -0.68570185, y: -0.17266478, z: -0.1726648, w: 0.6857017}
+      scale: {x: 100, y: 100, z: 100}
+    - name: iron1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.69560635, y: -0.12761071, z: 0.4969881}
+      rotation: {x: -0.68570185, y: -0.17266478, z: -0.1726648, w: 0.6857017}
+      scale: {x: 100, y: 100, z: 100}
+    - name: seat1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.6518334, y: -0.16604975, z: 0.4109555}
+      rotation: {x: -0.68570185, y: -0.17266478, z: -0.1726648, w: 0.6857017}
+      scale: {x: 100, y: 100, z: 100}
+    - name: small_base1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.65056837, y: -0.23008817, z: 0.41197878}
+      rotation: {x: -0.64406157, y: -0.2918642, z: -0.29186422, w: 0.64406157}
+      scale: {x: 100, y: 100, z: 100}
+    - name: support1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.6506985, y: -0.34013668, z: 0.41222045}
+      rotation: {x: 0.22713068, y: 0.66963553, z: 0.6696354, w: -0.22713073}
+      scale: {x: 100, y: 100, z: 100}
+    - name: wheel1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.6506985, y: -0.34013665, z: 0.41222057}
+      rotation: {x: -0.4219646, y: -0.087440744, z: 0.88361347, w: 0.18310444}
+      scale: {x: 100, y: 100.00001, z: 100}
+    - name: back1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.68720114, y: -0.06864331, z: 0.4817516}
+      rotation: {x: -0.68570185, y: -0.17266478, z: -0.1726648, w: 0.6857017}
+      scale: {x: 100, y: 100, z: 100}
+    - name: back3
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.11435146, y: -0.08323363, z: -0.18773378}
+      rotation: {x: -0.5849738, y: -0.39724758, z: -0.3972476, w: 0.5849738}
+      scale: {x: 100, y: 100, z: 100}
+    - name: base3
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.18731096, y: -0.30141178, z: -0.21751812}
+      rotation: {x: -0.5849738, y: -0.39724758, z: -0.3972476, w: 0.5849738}
+      scale: {x: 100, y: 100, z: 100}
+    - name: iron3
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.09810872, y: -0.12835327, z: -0.1814909}
+      rotation: {x: -0.5849738, y: -0.39724758, z: -0.3972476, w: 0.5849738}
+      scale: {x: 100, y: 100, z: 100}
+    - name: seat3
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.18700227, y: -0.16679229, z: -0.21911567}
+      rotation: {x: -0.5849738, y: -0.39724758, z: -0.3972476, w: 0.5849738}
+      scale: {x: 100, y: 100, z: 100}
+    - name: small_base3
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.18731096, y: -0.23083071, z: -0.21751812}
+      rotation: {x: -0.5049967, y: -0.4949528, z: -0.49495134, w: 0.5049982}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: support3
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.1870559, y: -0.34087923, z: -0.21741705}
+      rotation: {x: -0.17355315, y: 0.6854775, z: 0.6854774, w: 0.17355318}
+      scale: {x: 100, y: 100, z: 100}
+    - name: wheel3
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.1870558, y: -0.3408792, z: -0.21741694}
+      rotation: {x: 0.83464056, y: 0.17295638, z: -0.5120567, w: -0.10610928}
+      scale: {x: 100, y: 100, z: 100}
+    - name: back2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.82583106, y: -0.08249107, z: -0.48877043}
+      rotation: {x: 0.23182009, y: 0.6680266, z: 0.6680265, w: -0.23182014}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: base2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.7764062, y: -0.30066922, z: -0.4273914}
+      rotation: {x: 0.23182009, y: 0.6680266, z: 0.6680265, w: -0.23182014}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: iron2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.8364627, y: -0.12761071, z: -0.50254613}
+      rotation: {x: 0.23182009, y: 0.6680266, z: 0.6680265, w: -0.23182014}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: seat2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.7749639, y: -0.16604975, z: -0.42814457}
+      rotation: {x: 0.23182009, y: 0.6680266, z: 0.6680265, w: -0.23182014}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: small_base2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.7764062, y: -0.23008817, z: -0.4273914}
+      rotation: {x: 0.10931582, y: 0.6986058, z: 0.69860584, w: -0.10931582}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: support2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.77657604, y: -0.34013668, z: -0.4276069}
+      rotation: {x: -0.5486708, y: 0.44604978, z: 0.44605005, w: 0.54867053}
+      scale: {x: 100, y: 100, z: 100}
+    - name: wheel2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.7765762, y: -0.34013665, z: -0.427607}
+      rotation: {x: 0.97523975, y: 0.20209163, z: 0.08794498, w: 0.018224}
+      scale: {x: 100, y: 100, z: 100}
+    - name: shelf_handle1
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.1368618, y: -0.10500428, z: -0.89405346}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: shelf_handle2
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.1368618, y: -0.1808406, z: -0.8038575}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: shelf_handle3
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.1368618, y: -0.34166422, z: -0.890167}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: shelf_handle4
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.84878755, y: -0.10500428, z: -0.89405346}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: shelf_handle5
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.56897795, y: -0.10500428, z: -0.89405346}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: shelf_handle6
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.3226356, y: -0.10500428, z: -0.89405346}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: bottom_shelf1
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.1335162, y: -0.20274475, z: -1.0883039}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: bottom_shelf2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.8481956, y: -0.23004922, z: -1.1146572}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: bottom_shelf3
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.57314456, y: -0.20951308, z: -1.0907305}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: bottom_shelf4
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.32267302, y: -0.20939727, z: -1.0907927}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: big_flask.001
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.0668365, y: 0.052168686, z: -1.132491}
+      rotation: {x: 0.7071069, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Petri_dish
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.0904337, y: -0.033880748, z: -1.0262555}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: flask_drying
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.1237292, y: 0.07764199, z: -1.2176311}
+      rotation: {x: 0.7071069, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: holder
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.1797742, y: 0.094959274, z: -1.2249181}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: salver
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.1377356, y: -0.037881263, z: -1.0706854}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: small_flask
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.1821916, y: 0.03236889, z: -1.0433677}
+      rotation: {x: 0.7071069, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: paper2
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.1098901, y: -0.17545123, z: -0.89700603}
+      rotation: {x: -0.17267205, y: 0.68569994, z: 0.6856999, w: 0.17267206}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: paper1
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.1669153, y: -0.17251821, z: -0.9067136}
+      rotation: {x: 0.16492157, y: 0.68760526, z: 0.68760514, w: -0.1649216}
+      scale: {x: 100, y: 100, z: 100}
+    - name: paper3
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.0623609, y: -0.1610466, z: -0.9067136}
+      rotation: {x: -0.17039515, y: 0.68626934, z: 0.68626916, w: 0.17039518}
+      scale: {x: 100, y: 100, z: 100}
+    - name: flask9
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.8809125, y: -0.07358263, z: -1.0449061}
+      rotation: {x: -0.006406739, y: -0.13709684, z: -0.0008867351, w: 0.9905365}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: flask10
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.7838926, y: -0.07600478, z: -1.0911006}
+      rotation: {x: -0.0061596283, y: 0.3049976, z: 0.0019727082, w: 0.9523312}
+      scale: {x: 100, y: 99.99999, z: 100.00001}
+    - name: large_flask1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.93186885, y: -0.055479325, z: -1.1621059}
+      rotation: {x: -0.087445706, y: 0.13978422, z: -0.70167893, w: 0.6931524}
+      scale: {x: 99.99999, y: 100, z: 100}
+    - name: Petri_dish2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.8166628, y: -0.07525594, z: -1.0718039}
+      rotation: {x: -0.7649954, y: 0.16269463, z: -0.09250154, w: 0.6162434}
+      scale: {x: 99.99999, y: 100, z: 100}
+    - name: tap
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.92791075, y: 0.06739231, z: -1.2262355}
+      rotation: {x: 0.18577895, y: -0.6822656, z: -0.35106888, w: 0.61380005}
+      scale: {x: 100, y: 100, z: 100.00001}
+    - name: dirt
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.84004337, y: -0.07907037, z: -1.1017623}
+      rotation: {x: -0.11715901, y: 0.69733334, z: 0.69733334, w: 0.117159}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: dirt2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.8615412, y: -0.07509128, z: -1.1448822}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: dirt3
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.83396316, y: -0.07550574, z: -1.0639503}
+      rotation: {x: -0.11715901, y: 0.69733334, z: 0.69733334, w: 0.117159}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: 'button '
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.5760034, y: -0.022877226, z: -1.0157017}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: conductor3
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.6360099, y: 0.022280624, z: -1.2411993}
+      rotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
+      scale: {x: 100, y: 100, z: 100}
+    - name: base.002
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.5760034, y: -0.020739771, z: -1.0814822}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 'frame '
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.5760034, y: -0.016814897, z: -1.0823499}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hole
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.6424412, y: -0.025799729, z: -1.0591139}
+      rotation: {x: 0.000000015454313, y: -0.70710677, z: 0.000000015454312, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 'legs '
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.5208623, y: -0.036788203, z: -1.0300936}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: plate
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.5758334, y: -0.020498075, z: -1.0821819}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 'point '
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.6360268, y: 0.022264173, z: -1.2390192}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: socket
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.63603306, y: 0.022261223, z: -1.2452842}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: bottle.001
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.4694713, y: -0.017835358, z: -1.1884404}
+      rotation: {x: -0.6916581, y: -0.14700043, z: -0.14700043, w: 0.6916581}
+      scale: {x: 100, y: 100, z: 100}
+    - name: adapter
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.32354742, y: -0.0022610219, z: -1.1085439}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: big_flask
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.3923889, y: 0.009290447, z: -1.1898452}
+      rotation: {x: -0.7042833, y: -0.06312726, z: -0.063127264, w: 0.7042833}
+      scale: {x: 100, y: 100, z: 100}
+    - name: bottle.002
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.23659107, y: -0.018365929, z: -1.0046111}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: lower_base
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.32224372, y: -0.023777463, z: -1.0529938}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: midle_base
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.3234745, y: 0.04069396, z: -1.0973203}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eye1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.32347447, y: 0.030641844, z: -1.0775474}
+      rotation: {x: -0.85616446, y: 3.768774e-17, z: -3.7687732e-17, w: 0.51670355}
+      scale: {x: 100, y: 100, z: 100}
+    - name: eye2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.32339233, y: 0.04636138, z: -1.0445822}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: head
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.32339233, y: 0.063458465, z: -1.0445822}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 'iron '
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.30205557, y: -0.006480107, z: -1.0535613}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: knob1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.33079767, y: 0.057621144, z: -1.0940614}
+      rotation: {x: 0.000000015454313, y: -0.70710677, z: 0.000000015454312, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: knob2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.352459, y: 0.07183977, z: -1.0710868}
+      rotation: {x: 0.000000015454313, y: -0.70710677, z: 0.000000015454312, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: leg
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.35160357, y: -0.034756847, z: -1.0156093}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: lights
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.31068778, y: 0.09438516, z: -1.0307562}
+      rotation: {x: -0.35534546, y: -6.432517e-17, z: 6.432518e-17, w: 0.93473506}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: Petri_dish4
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.42459673, y: -0.037915386, z: -1.0067242}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: plate2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.32304046, y: -0.0065788124, z: -1.0272304}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: plates
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.30714792, y: -0.0052989516, z: -1.0359408}
+      rotation: {x: -0.6976885, y: -0.11502491, z: -0.11502491, w: 0.6976885}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: germs
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.42459673, y: -0.035331763, z: -1.0067242}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: germs1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.44220242, y: -0.035990067, z: -1.0068797}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: germs2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.4299427, y: -0.034967996, z: -0.98899853}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: bottle.003
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.46611208, y: -0.014158258, z: -0.93750995}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: handle1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.9975657, y: 0.32533473, z: -1.0280501}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: handle2
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.2390274, y: 0.32533473, z: -1.0280501}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: handle3
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.7298004, y: 0.32533473, z: -0.9779447}
+      rotation: {x: -0.6988359, y: 0.10783492, z: 0.10783493, w: 0.6988359}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: handle4
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.5302754, y: 0.32533473, z: -1.0280501}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: shelf
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.8033143, y: 0.3669717, z: -1.1930306}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: bottle
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.7019026, y: 0.4159518, z: -1.0845547}
+      rotation: {x: -0.70676625, y: -0.021942955, z: -0.021942956, w: 0.7067662}
+      scale: {x: 100, y: 100, z: 100}
+    - name: flask11
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.72541875, y: 0.28093514, z: -1.0933818}
+      rotation: {x: -0.70219785, y: -0.08317565, z: -0.08317566, w: 0.70219785}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Petri_dish5
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.69455045, y: 0.26592025, z: -1.083516}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: tweezers
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.7436593, y: 0.40851462, z: -1.0665122}
+      rotation: {x: -0.6246751, y: -0.41224277, z: -0.3313323, w: 0.5745049}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: rack2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.629104, y: 0.39814338, z: -1.1118375}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: base
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.03900338, y: -0.16527244, z: -1.1075743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: head3
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.039021425, y: -0.106457286, z: -1.1047841}
+      rotation: {x: -0.5884499, y: 0.39207998, z: 0.39207995, w: 0.58844995}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: legs
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.10105131, y: -0.38346186, z: -1.069823}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: plane .001
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.039062105, y: -0.35041046, z: -1.0099292}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: wall
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.03919723, y: -0.11825519, z: -1.1880505}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: logo.001
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.03627094, y: -0.21467601, z: -1.0066748}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 'main '
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.5036457, y: -0.38343954, z: -0.8333126}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: top_plastic
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.39968428, y: 0.44345278, z: -0.8333126}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: door
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.39968428, y: 0.333693, z: -0.8333126}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: lower_plastic
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.39968428, y: -0.23715936, z: -0.8333126}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: handel
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.37811217, y: 0.16722034, z: -0.66271913}
+      rotation: {x: -0.6809901, y: 0.19040126, z: 0.19040129, w: 0.68099}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: legs1
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.44416845, y: -0.33814722, z: -0.6845628}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: weels
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.4441822, y: -0.36333695, z: -0.6831354}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: door.001
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.39968428, y: 0.333693, z: -0.8333126}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: flask_drying3
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.45667586, y: 0.15773296, z: -0.9273075}
+      rotation: {x: -0.29178748, y: 0.6440967, z: 0.64409584, w: 0.2917879}
+      scale: {x: 100, y: 100, z: 100}
+    - name: holder3
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.4991122, y: 0.16648589, z: -0.88998073}
+      rotation: {x: -0.64409614, y: -0.29178765, z: -0.2917876, w: 0.64409643}
+      scale: {x: 100, y: 100, z: 100}
+    - name: chalk1
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.06854258, y: 0.074326955, z: -1.2134473}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: chalk2
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.17814305, y: 0.07158526, z: -1.2134473}
+      rotation: {x: 0.007571183, y: 0.35400298, z: 0.9349999, w: -0.01999517}
+      scale: {x: 100.00001, y: 100, z: 100}
+    - name: frame .001
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.1871014, y: 0.29056486, z: -1.2318395}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 'plane '
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.1871014, y: 0.06425687, z: -1.2010716}
+      rotation: {x: -0.7406698, y: 0, z: -0, w: 0.6718693}
+      scale: {x: 100, y: 100, z: 100}
+    - name: berth
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.61454093, y: -0.0055751298, z: -0.041331436}
+      rotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
+      scale: {x: 100, y: 100, z: 100}
+    - name: bottle3
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.51042426, y: -0.018668363, z: -0.44040114}
+      rotation: {x: 0.30815536, y: 0.6364278, z: 0.63642764, w: -0.30815548}
+      scale: {x: 100, y: 100, z: 100}
+    - name: cane
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.38375244, y: -0.07214976, z: 0.042297065}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: flask12
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.4685124, y: 0.016689768, z: -0.50541633}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: flask13
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.5090272, y: 0.0409412, z: -0.3438417}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: flask14
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.5359942, y: 0.09922024, z: -0.34152174}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: funnel
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.41585723, y: -0.02665026, z: -0.009290069}
+      rotation: {x: 0.13441306, y: 0.13800608, z: 0.98108613, w: -0.018906774}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hanger
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.5345441, y: 0.1292368, z: -0.3433732}
+      rotation: {x: -0.69161296, y: 0.14721256, z: 0.14721256, w: 0.6916129}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: lamp
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.58017784, y: -0.013738463, z: 0.02351418}
+      rotation: {x: -0.6798671, y: -0.19437283, z: -0.19437286, w: 0.67986697}
+      scale: {x: 100, y: 100, z: 100}
+    - name: leaf2
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.62747747, y: 0.18378852, z: -0.20836309}
+      rotation: {x: 0.000000015454313, y: -0.70710677, z: 0.000000015454312, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: loupe
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.3949984, y: -0.036283918, z: -0.33981043}
+      rotation: {x: 0.000000019633854, y: -0.43930027, z: 0.000000009601211, w: 0.89834034}
+      scale: {x: 100, y: 100, z: 100}
+    - name: old_microscope
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.39869282, y: -0.0040664235, z: -0.21116722}
+      rotation: {x: 0.66111284, y: -0.33207467, z: -0.53042203, w: -0.4138945}
+      scale: {x: 100.00001, y: 100, z: 99.99999}
+    - name: Petri_dish12
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.39420325, y: -0.037767835, z: -0.112411946}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 'base '
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.53561825, y: -0.052135117, z: -0.22939366}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: plate8
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.4787192, y: -0.03295321, z: -0.05826583}
+      rotation: {x: -0.7069537, y: 0.014717235, z: 0.014717238, w: 0.7069536}
+      scale: {x: 100, y: 100, z: 100}
+    - name: point9
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.62749964, y: 0.19588184, z: -0.20792058}
+      rotation: {x: 0.000000015454313, y: -0.70710677, z: 0.000000015454312, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: scales
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.4684491, y: 0.0005712416, z: -0.50552195}
+      rotation: {x: -0.68819827, y: 0.1624289, z: 0.16242892, w: 0.68819827}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 'tube '
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.3855249, y: -0.032678194, z: -0.47015747}
+      rotation: {x: 0.055050127, y: 0.081689425, z: 0.107558064, w: 0.9893066}
+      scale: {x: 99.99999, y: 100, z: 100}
+    - name: tubes
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.6123038, y: 0.0053601763, z: -0.06205919}
+      rotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
+      scale: {x: 100, y: 100, z: 100}
+    - name: frame3
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.61834204, y: 0.5125443, z: 0.0054509044}
+      rotation: {x: 0.000000015454313, y: -0.70710677, z: 0.000000015454312, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: point2
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.6323996, y: 0.5125443, z: 0.005450934}
+      rotation: {x: 0.000000015454313, y: -0.70710677, z: 0.000000015454312, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Micro
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.40083945, y: -0.036003627, z: -0.10959196}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Micro1
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.38035718, y: -0.036003627, z: -0.10959196}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: lines
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.61417806, y: 0.547467, z: 0.040529966}
+      rotation: {x: 0.27489612, y: -0.6514846, z: -0.27489612, w: 0.6514845}
+      scale: {x: 100, y: 100, z: 100}
+    - name: lines2
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.615814, y: 0.5234623, z: 0.014665872}
+      rotation: {x: 0.23365527, y: -0.6673869, z: -0.23365527, w: 0.66738683}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: flask12.001
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.4365221, y: -0.008005301, z: -0.80143124}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: flask14.001
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.53490627, y: 0.25119364, z: -0.84734106}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: blot_blue
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.3142062, y: -0.38006386, z: -0.5742016}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: flask13.001
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.40733692, y: -0.027710713, z: -0.56159383}
+      rotation: {x: 0.80716956, y: -0.15902159, z: -0.5307476, w: 0.20370667}
+      scale: {x: 100, y: 100, z: 100.00001}
+    - name: cane1
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.46942562, y: 0.05150432, z: 0.40205103}
+      rotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
+      scale: {x: 100, y: 100, z: 100}
+    - name: cane3
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.36347872, y: -0.068877675, z: 0.6357155}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: canister1
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.53283143, y: 0.036523275, z: 0.16320038}
+      rotation: {x: 0.6237684, y: 0.61652344, z: 0.35012227, w: 0.3289776}
+      scale: {x: 100, y: 100, z: 99.99999}
+    - name: canister2
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.51918685, y: 0.17024976, z: 0.47971645}
+      rotation: {x: 0.3838745, y: 0.32943657, z: 0.8496824, w: -0.14883476}
+      scale: {x: 100, y: 100, z: 100}
+    - name: canister3
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.47372347, y: 0.17024976, z: 0.56542647}
+      rotation: {x: 0.65928745, y: 0.25561708, z: 0.6592874, w: -0.25561708}
+      scale: {x: 100, y: 100, z: 100}
+    - name: canister4
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.5083117, y: -0.11824313, z: 0.55094254}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: canister5
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.5083117, y: -0.11824313, z: 0.43983382}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: canister6
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.44000724, y: -0.15773243, z: 0.32409972}
+      rotation: {x: -0.662344, y: 0.66234404, z: -0.24758928, w: 0.24758935}
+      scale: {x: 100, y: 100, z: 100}
+    - name: fastening
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.63570046, y: 0.05101751, z: 0.63623893}
+      rotation: {x: 0.000000015454313, y: -0.70710677, z: 0.000000015454312, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: points
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.63224345, y: 0.21695004, z: 0.32602218}
+      rotation: {x: 0.9330228, y: -7.609649e-18, z: 1.58593e-17, w: -0.35981724}
+      scale: {x: 100, y: 100, z: 100}
+    - name: poster
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.6322559, y: 0.3230808, z: 0.38975096}
+      rotation: {x: 0.000000015454313, y: -0.70710677, z: 0.000000015454312, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: shelf1
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.53960943, y: -0.010850588, z: 0.4194636}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: cane2
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.46942562, y: -0.15647145, z: 0.40358713}
+      rotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
+      scale: {x: 100, y: 100, z: 100}
+    - name: logo
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.5074836, y: 0.07934853, z: 0.24648437}
+      rotation: {x: -0.6933057, y: -0.061274778, z: -0.059367813, w: 0.7155754}
+      scale: {x: 100, y: 100, z: 100}
+    - name: logo.002
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.46153483, y: 0.09030112, z: 0.60572886}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: logo.003
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.48579326, y: 0.09418192, z: 0.5057522}
+      rotation: {x: 0.000000020495454, y: -0.34727696, z: 0.00000000758998, w: 0.9377626}
+      scale: {x: 100, y: 100, z: 100}
+    - name: logo.004
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.4496973, y: -0.106089324, z: 0.31360522}
+      rotation: {x: -0.651195, y: -0.2531166, z: -0.24523918, w: 0.6721122}
+      scale: {x: 99.99999, y: 100, z: 100}
+    - name: shelf3
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.50441545, y: 0.22353993, z: -0.8308315}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: shelf1.001
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.50441545, y: 0.10512425, z: -0.8308315}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: shelf2
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.50441545, y: -0.040988006, z: -0.8308315}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: table1
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.66602784, y: -0.094395615, z: 0.13795528}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: table2
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.66602784, y: -0.094395615, z: -0.15083835}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: piece_of_paper
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.1381193, y: -0.2529094, z: 0.10454872}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: basket
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.1422926, y: -0.2811508, z: 0.13769558}
+      rotation: {x: -0.6610096, y: 0.25113004, z: 0.25113004, w: 0.6610096}
+      scale: {x: 100, y: 100, z: 100}
+    - name: leaf 4
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.1604657, y: -0.2638463, z: 0.13055903}
+      rotation: {x: -0.512088, y: -0.050386474, z: -0.48761252, w: 0.7053093}
+      scale: {x: 100, y: 100, z: 100}
+    - name: leaf1
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.1260144, y: -0.24374384, z: 0.14492474}
+      rotation: {x: 0.61272424, y: 0.47294438, z: -0.12895085, w: 0.6198906}
+      scale: {x: 100, y: 100, z: 100}
+    - name: leaf5
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.0580662, y: -0.37028828, z: 0.24875194}
+      rotation: {x: 0.7401477, y: 0.40137497, z: -0.036799405, w: 0.53826135}
+      scale: {x: 100, y: 100, z: 99.99999}
+    - name: leaf3
+      parentName: GameRadyLab(Clone)
+      position: {x: -1.0931674, y: -0.37022883, z: 0.25786772}
+      rotation: {x: 0.7401477, y: 0.40137497, z: -0.036799405, w: 0.53826135}
+      scale: {x: 100, y: 100, z: 99.99999}
+    - name: floor_and_walls
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.07567195, y: -0.075998835, z: -0.6800282}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: tile
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.3221781, y: -0.38661683, z: -0.28361806}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: dirty_footprints
+      parentName: GameRadyLab(Clone)
+      position: {x: -0.7813081, y: -0.3761657, z: -0.80431545}
+      rotation: {x: 0.003384439, y: 0.70009226, z: 0.7140141, w: 0.00657474}
+      scale: {x: 99.99999, y: 99.99999, z: 99.99999}
+    - name: Armature
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.000094223375, y: -0.045983393, z: 0.3669929}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: root
+      parentName: Armature
+      position: {x: 0, y: 0.0036649322, z: 0.0037667837}
+      rotation: {x: 0.7444326, y: -0, z: 2.3561571e-17, w: 0.6676976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine1
+      parentName: root
+      position: {x: -2.5849394e-28, y: 0.0010690029, z: 4.6566128e-12}
+      rotation: {x: -0.12001634, y: 9.3392126e-17, z: 7.996675e-17, w: 0.992772}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine2
+      parentName: spine1
+      position: {x: -1.6543612e-26, y: 0.0011505637, z: -9.3132255e-12}
+      rotation: {x: 0.108558185, y: 6.617445e-24, z: 2.4104824e-17, w: 0.99409014}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: head
+      parentName: spine2
+      position: {x: 2.9985296e-26, y: 0.0003130124, z: 2.3283063e-11}
+      rotation: {x: 0.13014656, y: -8.255202e-23, z: 2.8898336e-17, w: 0.9914948}
+      scale: {x: 1, y: 0.9999999, z: 1.0000002}
+    - name: collarbone.L
+      parentName: spine1
+      position: {x: -0.0002594704, y: 0.00089633587, z: -0.00000068171414}
+      rotation: {x: -0.5562382, y: 0.38668212, z: 0.4357922, w: 0.5925886}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: sholder.L
+      parentName: collarbone.L
+      position: {x: -0, y: 0.0004731738, z: -6.0535965e-11}
+      rotation: {x: 0.034008473, y: -0.042072788, z: -0.16486432, w: -0.9848316}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: LowerArm.L
+      parentName: sholder.L
+      position: {x: -1.8626451e-11, y: 0.0007875028, z: -1.3969838e-11}
+      rotation: {x: -0.0573084, y: 0.07636398, z: -0.032801785, w: -0.99489117}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000004}
+    - name: Hand.L
+      parentName: LowerArm.L
+      position: {x: -4.962203e-11, y: 0.0011406604, z: 2.0641891e-10}
+      rotation: {x: 0.0060650855, y: -0.0063803643, z: -0.01797333, w: 0.9997997}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: collarbone.R
+      parentName: spine1
+      position: {x: 0.0002594704, y: 0.00089633587, z: -0.00000068171414}
+      rotation: {x: -0.556238, y: -0.38668224, z: -0.43579224, w: 0.5925886}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: sholder.R
+      parentName: collarbone.R
+      position: {x: -0, y: 0.0004731738, z: -6.0535965e-11}
+      rotation: {x: 0.034008373, y: 0.042072818, z: 0.16486402, w: -0.9848316}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: LowerArm.R
+      parentName: sholder.R
+      position: {x: 1.8626451e-11, y: 0.0007875028, z: -1.3969838e-11}
+      rotation: {x: 0.057308238, y: 0.076363936, z: -0.032801963, w: 0.99489117}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000004}
+    - name: Hand.R
+      parentName: LowerArm.R
+      position: {x: 4.962203e-11, y: 0.0011406604, z: 2.0641891e-10}
+      rotation: {x: -0.0060651144, y: -0.0063803643, z: -0.017973362, w: -0.9997998}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1.0000001}
+    - name: UpperLeg.L
+      parentName: root
+      position: {x: -0.00030939368, y: -0.000015173312, z: -0.0000033716344}
+      rotation: {x: 0.9962789, y: -0.05734119, z: -0.051430926, w: 0.038668334}
+      scale: {x: 1.000001, y: 1.0000006, z: 1.000001}
+    - name: LowerLeg.L
+      parentName: UpperLeg.L
+      position: {x: -1.5133991e-11, y: 0.001440197, z: 0}
+      rotation: {x: 0.056281473, y: 0.047248308, z: -0.054982252, w: 0.9957796}
+      scale: {x: 1.000001, y: 1.0000008, z: 1.0000014}
+    - name: Foot.L
+      parentName: LowerLeg.L
+      position: {x: -2.4301698e-11, y: 0.0014980355, z: 3.9290172e-11}
+      rotation: {x: -0.66667026, y: 0.046914704, z: -0.04956582, w: 0.7422217}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: UpperLeg.R
+      parentName: root
+      position: {x: 0.00030939368, y: -0.000015173312, z: -0.0000033716344}
+      rotation: {x: 0.9962789, y: 0.05734119, z: 0.051430926, w: 0.038668334}
+      scale: {x: 1.000001, y: 1.0000006, z: 1.000001}
+    - name: LowerLeg.R
+      parentName: UpperLeg.R
+      position: {x: 1.5133991e-11, y: 0.001440197, z: 0}
+      rotation: {x: 0.056281473, y: -0.047248308, z: 0.054982252, w: 0.9957796}
+      scale: {x: 1.000001, y: 1.0000008, z: 1.0000014}
+    - name: Foot.R
+      parentName: LowerLeg.R
+      position: {x: 2.4301698e-11, y: 0.0014980355, z: 3.9290172e-11}
+      rotation: {x: -0.66667026, y: -0.046914704, z: 0.04956582, w: 0.7422217}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: scientist
+      parentName: GameRadyLab(Clone)
+      position: {x: 0.00009422338, y: -0.046874445, z: 0.352736}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5

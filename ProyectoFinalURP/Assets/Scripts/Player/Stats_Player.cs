@@ -14,6 +14,9 @@ public class Stats_Player : MonoBehaviour
     public GameObject mapa;
     public GameObject panelPersonajes;
 
+
+    [SerializeField]public static float Enemigos = 2f;
+
     public void Update()
     {
         Pausa();
