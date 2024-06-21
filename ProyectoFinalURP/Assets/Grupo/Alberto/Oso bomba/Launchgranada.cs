@@ -17,7 +17,7 @@ public class Launchgranada : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetButtonDown("Fire1"))
         {
             InstanciarGranada();
         }
