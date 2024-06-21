@@ -14,6 +14,9 @@ public class Stats_Player : MonoBehaviour
     public GameObject mapa;
     public GameObject panelPersonajes;
 
+
+    [SerializeField]public static float Enemigos = 2f;
+
     public void Update()
     {
         Pausa();
@@ -62,7 +65,7 @@ public class Stats_Player : MonoBehaviour
 
         if (other.transform.tag == "AtaqueEnemigoSpiderGreen")
         {
-            vida = vida - 0.1f;
+            vida = vida - 0.5f;
 
 
             if (vida == 0)

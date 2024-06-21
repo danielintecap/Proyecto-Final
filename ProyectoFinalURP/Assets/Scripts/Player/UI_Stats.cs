@@ -12,6 +12,8 @@ public class UI_Stats : MonoBehaviour
     public float vidaActual;
     public float vidaMaxima = 100f;
 
+    public Text CantEnemigos;
+
 
     void Start()
     {
@@ -27,5 +29,8 @@ public class UI_Stats : MonoBehaviour
         //vida con imagen de barra
         vidaActual = Stats_Player.vida;
         barraVida.fillAmount = vidaActual / vidaMaxima;
+
+
+        CantEnemigos.text = "Enemigos: " + Stats_Player.Enemigos; 
     }
 }

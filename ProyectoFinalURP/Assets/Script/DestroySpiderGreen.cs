@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class DestroySpiderGreen : MonoBehaviour
 {
+    public GameObject SpiderGreen;
     public void DestruirAraña()
     {
-        Destroy(gameObject, 0.1f);
+        Destroy(SpiderGreen, 0.1f);
     }
 }
