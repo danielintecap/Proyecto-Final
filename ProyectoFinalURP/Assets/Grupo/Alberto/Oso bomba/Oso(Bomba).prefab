@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6088367607381129813}
   - component: {fileID: 5763856277762030600}
   m_Layer: 0
-  m_Name: Oso
+  m_Name: Oso(Bomba)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

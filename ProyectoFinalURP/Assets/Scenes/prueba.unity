@@ -452,6 +452,89 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!1 &194453669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 194453670}
+  - component: {fileID: 194453672}
+  - component: {fileID: 194453671}
+  m_Layer: 0
+  m_Name: Oso
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &194453670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194453669}
+  m_LocalRotation: {x: -0.29316068, y: -0.31142914, z: 0.6803238, w: 0.5951708}
+  m_LocalPosition: {x: -0.107, y: 0.112, z: 0.092}
+  m_LocalScale: {x: 0.059814494, y: 0.018279998, z: 0.08768798}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1111524231715157295}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 4.289, y: -50.512, z: 95.615}
+--- !u!23 &194453671
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194453669}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b90a325de9e872741a231457e51ea4a4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &194453672
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194453669}
+  m_Mesh: {fileID: 9186633843763367028, guid: d78c3cb5ed8a96b478a84e9fe3c65bdc, type: 3}
 --- !u!1 &195959342 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2e8dd4e252ecbce49afbe3d279e78ac1,
@@ -1823,7 +1906,7 @@ GameObject:
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1560536283
 Transform:
   m_ObjectHideFlags: 0
@@ -1837,7 +1920,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1111524231715157295}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1877959095
 GameObject:
@@ -4478,6 +4561,7 @@ Transform:
   - {fileID: 3128871354526597803}
   - {fileID: 3465472656243481450}
   - {fileID: 1353173757}
+  - {fileID: 194453670}
   - {fileID: 1560536283}
   m_Father: {fileID: 8512538018969921694}
   m_RootOrder: 0
@@ -15109,12 +15193,13 @@ MonoBehaviour:
   Source: {fileID: 7433473685603571870}
   PointerParticulas: {fileID: 0}
   ClipAtack: {fileID: 8300000, guid: d9419ba0bfac1e84a95418ac5851caf6, type: 3}
+  ClipAtack2: {fileID: 0}
   ClipRun: {fileID: 8300000, guid: 1f2844efbf7abf647ba3d75d510f823a, type: 3}
   ClipWalk: {fileID: 8300000, guid: f42914d98b070f741b2feee96a2988ee, type: 3}
   ClipJump: {fileID: 8300000, guid: 09226248e570c904a900ec2ecb767a68, type: 3}
   ClipLand: {fileID: 8300000, guid: 942019cf9ecd5854ebeb343b12b7f779, type: 3}
   particulaAtaque: {fileID: 0}
-  particulaCorrer: {fileID: 0}
+  particulaAtaque2: {fileID: 0}
 --- !u!82 &7433473685603571870
 AudioSource:
   m_ObjectHideFlags: 0
@@ -16696,8 +16781,8 @@ GameObject:
   - component: {fileID: 6308769921456565515}
   - component: {fileID: 8353458574943138604}
   - component: {fileID: 8353458574943138603}
-  - component: {fileID: 8353458574943138605}
   - component: {fileID: 8353458574943138606}
+  - component: {fileID: 8353458574943138605}
   m_Layer: 8
   m_Name: Juguetero
   m_TagString: Untagged
@@ -16720,12 +16805,14 @@ MonoBehaviour:
   Source: {fileID: 8353458574943138604}
   PointerParticulas: {fileID: 0}
   ClipAtack: {fileID: 8300000, guid: 3061c7b9b32d894478e4126ccce25ca3, type: 3}
+  ClipAtack2: {fileID: 0}
   ClipRun: {fileID: 8300000, guid: 1f2844efbf7abf647ba3d75d510f823a, type: 3}
   ClipWalk: {fileID: 8300000, guid: f42914d98b070f741b2feee96a2988ee, type: 3}
   ClipJump: {fileID: 8300000, guid: 09226248e570c904a900ec2ecb767a68, type: 3}
   ClipLand: {fileID: 8300000, guid: 942019cf9ecd5854ebeb343b12b7f779, type: 3}
   particulaAtaque: {fileID: 0}
-  particulaCorrer: {fileID: 0}
+  particulaAtaque2: {fileID: 5035150446964373227, guid: ddb37003367ca3540a66b35700f823b9,
+    type: 3}
 --- !u!82 &8353458574943138604
 AudioSource:
   m_ObjectHideFlags: 0
@@ -16835,7 +16922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arma1: {fileID: 195959342}
-  arma2: {fileID: 0}
+  arma2: {fileID: 194453669}
   animator: {fileID: 0}
 --- !u!114 &8353458574943138606
 MonoBehaviour:
@@ -16852,7 +16939,7 @@ MonoBehaviour:
   Granada: {fileID: 5035150446964373227, guid: ddb37003367ca3540a66b35700f823b9, type: 3}
   PointGranada: {fileID: 1560536283}
   rango: 20
-  ejes: {x: 0, y: 0, z: 2}
+  ejes: {x: 0, y: 0, z: 0}
 --- !u!33 &8369626311036048617
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17447,12 +17534,13 @@ MonoBehaviour:
   Source: {fileID: 8776682841915094781}
   PointerParticulas: {fileID: 0}
   ClipAtack: {fileID: 8300000, guid: af66162561d2eed40ad49268cab318bb, type: 3}
+  ClipAtack2: {fileID: 0}
   ClipRun: {fileID: 8300000, guid: 1f2844efbf7abf647ba3d75d510f823a, type: 3}
   ClipWalk: {fileID: 8300000, guid: f42914d98b070f741b2feee96a2988ee, type: 3}
   ClipJump: {fileID: 8300000, guid: 09226248e570c904a900ec2ecb767a68, type: 3}
   ClipLand: {fileID: 8300000, guid: 942019cf9ecd5854ebeb343b12b7f779, type: 3}
   particulaAtaque: {fileID: 0}
-  particulaCorrer: {fileID: 0}
+  particulaAtaque2: {fileID: 0}
 --- !u!82 &8776682841915094781
 AudioSource:
   m_ObjectHideFlags: 0

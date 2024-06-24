@@ -37,7 +37,7 @@ public class Aliados : MonoBehaviour
             Agent.speed = 5f;
             if (distanciaEnemigo <= Distancia_Disparo)
             {
-                animator.SetBool("Disparo", false);
+                animator.SetBool("Walk", false);
                 Agent.speed = 0f;
             }
             else

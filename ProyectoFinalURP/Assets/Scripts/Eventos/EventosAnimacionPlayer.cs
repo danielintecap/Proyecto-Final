@@ -7,22 +7,27 @@ public class EventosAnimacionPlayer : MonoBehaviour
     public AudioSource Source;
     public Transform PointerParticulas;
     public AudioClip ClipAtack;
+    public AudioClip ClipAtack2;
     public AudioClip ClipRun;
     public AudioClip ClipWalk;
     public AudioClip ClipJump;
     public AudioClip ClipLand;
     public GameObject particulaAtaque;
-    public GameObject particulaCorrer;
+    public GameObject particulaAtaque2;
 
     public void EfectoAtaque()
     {
         Source.PlayOneShot(ClipAtack);
         Instantiate(particulaAtaque, PointerParticulas);
     }
+    public void EfectoAtaque_2()
+    {
+        Source.PlayOneShot(ClipAtack2);
+        Instantiate(particulaAtaque2, PointerParticulas);
+    }
     public void EfectoCorrer()
     {
         Source.PlayOneShot(ClipRun);
-        Instantiate(particulaCorrer, PointerParticulas);
     }
     public void EfectoCaminar()
     {
