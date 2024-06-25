@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4367757, g: 0.48439622, b: 0.5646499, a: 1}
+  m_IndirectSpecularColor: {r: 0.43677625, g: 0.48439693, b: 0.5646509, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9240,7 +9240,7 @@ GameObject:
   - component: {fileID: 260702968}
   - component: {fileID: 260702969}
   m_Layer: 5
-  m_Name: Efectos
+  m_Name: Sensibilidad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9314,25 +9314,13 @@ MonoBehaviour:
   m_FillRect: {fileID: 1010207375}
   m_HandleRect: {fileID: 2085675162}
   m_Direction: 0
-  m_MinValue: -80
+  m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1702989905}
-        m_TargetAssemblyTypeName: MenuOptionSetting, Assembly-CSharp
-        m_MethodName: SetVolumeEffects
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &261424995
 GameObject:
   m_ObjectHideFlags: 0
@@ -9456,8 +9444,7 @@ AudioSource:
   m_GameObject: {fileID: 262780981}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 7202284309873323507, guid: e4b1304e36fcad64295db252b90a10aa,
-    type: 2}
+  OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 484a9c1a7fbcbcf45aceb00533f9cd19, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -25582,25 +25569,13 @@ MonoBehaviour:
   m_FillRect: {fileID: 1667471425}
   m_HandleRect: {fileID: 1805228660}
   m_Direction: 0
-  m_MinValue: -80
+  m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1702989905}
-        m_TargetAssemblyTypeName: MenuOptionSetting, Assembly-CSharp
-        m_MethodName: SetVolume
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1001 &747195227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35660,7 +35635,7 @@ PrefabInstance:
     - target: {fileID: 3302101276409001376, guid: 7bb4d175fbc484041885801e5668b448,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3302101276409001376, guid: 7bb4d175fbc484041885801e5668b448,
         type: 3}
@@ -60027,95 +60002,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0016718119, y: 0.0004175751, z: 0.00007461608}
   m_Center: {x: -0.0000000040454324, y: 0.00011987869, z: -0.0000000023283064}
---- !u!1001 &1674870053
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: a54118679a93fa0409336dd2e77cc00c,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a54118679a93fa0409336dd2e77cc00c,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a54118679a93fa0409336dd2e77cc00c,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a54118679a93fa0409336dd2e77cc00c,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a54118679a93fa0409336dd2e77cc00c,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -48.429512
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a54118679a93fa0409336dd2e77cc00c,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.8813491
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a54118679a93fa0409336dd2e77cc00c,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 27.38
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a54118679a93fa0409336dd2e77cc00c,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a54118679a93fa0409336dd2e77cc00c,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a54118679a93fa0409336dd2e77cc00c,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a54118679a93fa0409336dd2e77cc00c,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a54118679a93fa0409336dd2e77cc00c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a54118679a93fa0409336dd2e77cc00c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a54118679a93fa0409336dd2e77cc00c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: a54118679a93fa0409336dd2e77cc00c,
-        type: 3}
-      propertyPath: m_Name
-      value: Cientifica_TPose
-      objectReference: {fileID: 0}
-    - target: {fileID: 5866666021909216657, guid: a54118679a93fa0409336dd2e77cc00c,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 7a7ea917904887543b5f79dc68565e9a, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a54118679a93fa0409336dd2e77cc00c, type: 3}
 --- !u!1 &1677742612 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4351734725886500187, guid: 7bb4d175fbc484041885801e5668b448,
@@ -60630,12 +60516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8569d9e2d94f24d4380eb9bd791f08ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
   audioMixer: {fileID: 0}
-=======
-  audioMixerMusica: {fileID: 24100000, guid: e4b1304e36fcad64295db252b90a10aa, type: 2}
-  audioMixerEffects: {fileID: 24100000, guid: 919ea7df577a8ea4ba0c9d239f26fb6e, type: 2}
->>>>>>> Stashed changes
 --- !u!4 &1705087636 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 466816, guid: 5bceb99c9fa1f2a4bb9692e518bec46c,

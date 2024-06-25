@@ -5,17 +5,11 @@ using UnityEngine.Audio;
 
 public class MenuOptionSetting : MonoBehaviour
 {
-    public AudioMixer audioMixerMusica;
-    public AudioMixer audioMixerEffects;
+    public AudioMixer audioMixer;
 
     public void SetVolume (float volume)
     {
-        audioMixerMusica.SetFloat("volume", volume);
-    }
-
-    public void SetVolumeEffects(float volumeE)
-    {
-        audioMixerEffects.SetFloat("volumeE", volumeE);
+        audioMixer.SetFloat("volume", volume);
     }
 
     public void SetQuality(int qualityIndex)
