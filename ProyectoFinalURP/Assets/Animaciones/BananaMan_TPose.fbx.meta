@@ -515,7 +515,7 @@ ModelImporter:
     - name: Left Thigh
       parentName: Hips
       position: {x: -0.004268162, y: -0.0018367039, z: 0.00023812808}
-      rotation: {x: 0.7180008, y: 0.052152213, z: 0.69125366, w: 0.062636435}
+      rotation: {x: 0.7180008, y: 0.052152216, z: 0.69125366, w: 0.06263644}
       scale: {x: 0.99999225, y: 0.9999998, z: 0.99999994}
     - name: Left Leg
       parentName: Left Thigh
@@ -620,7 +620,7 @@ ModelImporter:
     - name: Left Hand Middle 1
       parentName: Left Hand
       position: {x: -0.000016283766, y: 0.0058492343, z: 0.0004026644}
-      rotation: {x: 0.03330611, y: 0.21321157, z: 0.008670472, w: 0.97639966}
+      rotation: {x: 0.033306114, y: 0.21321157, z: 0.008670473, w: 0.97639966}
       scale: {x: 1, y: 1.0000001, z: 0.99999994}
     - name: Left Hand Middle 2
       parentName: Left Hand Middle 1
