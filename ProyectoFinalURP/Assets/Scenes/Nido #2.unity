@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 203844588}
-  m_IndirectSpecularColor: {r: 0.067819566, g: 0.27394518, b: 0.48464394, a: 1}
+  m_IndirectSpecularColor: {r: 0.06781944, g: 0.27394506, b: 0.484644, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6609,6 +6609,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider_Green (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3123637395018321054, guid: 751ed96bca9aa174bacdac960b90c802,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 751ed96bca9aa174bacdac960b90c802, type: 3}
 --- !u!4 &197197820 stripped
@@ -12381,6 +12386,11 @@ PrefabInstance:
       propertyPath: Ganaste
       value: 
       objectReference: {fileID: 91125873}
+    - target: {fileID: 5054848064102177280, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 5054848064102177282, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
         type: 3}
       propertyPath: m_Name
@@ -12450,6 +12460,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2066018910}
     m_Modifications:
+    - target: {fileID: 6996353038466440129, guid: 365f088ae0de42d4aae84c7d136255af,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 6996353038466440131, guid: 365f088ae0de42d4aae84c7d136255af,
         type: 3}
       propertyPath: m_Name
@@ -12525,6 +12540,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2066018910}
     m_Modifications:
+    - target: {fileID: 6996353038466440129, guid: 365f088ae0de42d4aae84c7d136255af,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 6996353038466440131, guid: 365f088ae0de42d4aae84c7d136255af,
         type: 3}
       propertyPath: m_Name
@@ -13310,6 +13330,11 @@ PrefabInstance:
       propertyPath: Ganaste
       value: 
       objectReference: {fileID: 91125873}
+    - target: {fileID: 5054848064102177280, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 5054848064102177282, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
         type: 3}
       propertyPath: m_Name
@@ -13724,6 +13749,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider_Green (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3123637395018321054, guid: 751ed96bca9aa174bacdac960b90c802,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 751ed96bca9aa174bacdac960b90c802, type: 3}
 --- !u!4 &380775926 stripped
@@ -15459,6 +15489,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2066018910}
     m_Modifications:
+    - target: {fileID: 6996353038466440129, guid: 365f088ae0de42d4aae84c7d136255af,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 6996353038466440131, guid: 365f088ae0de42d4aae84c7d136255af,
         type: 3}
       propertyPath: m_Name
@@ -16916,6 +16951,11 @@ PrefabInstance:
       propertyPath: Ganaste
       value: 
       objectReference: {fileID: 91125873}
+    - target: {fileID: 5054848064102177280, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 5054848064102177282, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
         type: 3}
       propertyPath: m_Name
@@ -19339,6 +19379,11 @@ PrefabInstance:
       propertyPath: Ganaste
       value: 
       objectReference: {fileID: 91125873}
+    - target: {fileID: 5054848064102177280, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 5054848064102177282, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
         type: 3}
       propertyPath: m_Name
@@ -20924,6 +20969,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider_Green (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3123637395018321054, guid: 751ed96bca9aa174bacdac960b90c802,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 751ed96bca9aa174bacdac960b90c802, type: 3}
 --- !u!4 &605775820 stripped
@@ -21709,6 +21759,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider_Green (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3123637395018321054, guid: 751ed96bca9aa174bacdac960b90c802,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 751ed96bca9aa174bacdac960b90c802, type: 3}
 --- !u!4 &619720597 stripped
@@ -21952,6 +22007,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3ra Persona
       objectReference: {fileID: 0}
+    - target: {fileID: 2914267481414622350, guid: c76c71688e02a7d40be1d02a4b8e7a2c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6601428805282342026, guid: c76c71688e02a7d40be1d02a4b8e7a2c,
         type: 3}
       propertyPath: m_IsActive
@@ -21989,6 +22049,12 @@ GameObject:
 --- !u!1 &625932811 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 63515617275689302, guid: c76c71688e02a7d40be1d02a4b8e7a2c,
+    type: 3}
+  m_PrefabInstance: {fileID: 625932808}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &625932812 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5449018511758340201, guid: c76c71688e02a7d40be1d02a4b8e7a2c,
     type: 3}
   m_PrefabInstance: {fileID: 625932808}
   m_PrefabAsset: {fileID: 0}
@@ -22649,6 +22715,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2066018910}
     m_Modifications:
+    - target: {fileID: 6996353038466440129, guid: 365f088ae0de42d4aae84c7d136255af,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 6996353038466440131, guid: 365f088ae0de42d4aae84c7d136255af,
         type: 3}
       propertyPath: m_Name
@@ -23259,6 +23330,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider_Green (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3123637395018321054, guid: 751ed96bca9aa174bacdac960b90c802,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 751ed96bca9aa174bacdac960b90c802, type: 3}
 --- !u!4 &673741331 stripped
@@ -24032,6 +24108,11 @@ PrefabInstance:
       propertyPath: Ganaste
       value: 
       objectReference: {fileID: 91125873}
+    - target: {fileID: 5054848064102177280, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 5054848064102177282, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
         type: 3}
       propertyPath: m_Name
@@ -25003,6 +25084,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider_Green (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3123637395018321054, guid: 751ed96bca9aa174bacdac960b90c802,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 751ed96bca9aa174bacdac960b90c802, type: 3}
 --- !u!4 &702192672 stripped
@@ -32998,7 +33084,7 @@ PrefabInstance:
     - target: {fileID: 6077996102674615289, guid: 600292a9faa362341811bc306242080c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CargarEscenaNido2
+      value: CargarEscenaLobby
       objectReference: {fileID: 0}
     - target: {fileID: 6077996102674615289, guid: 600292a9faa362341811bc306242080c,
         type: 3}
@@ -35680,6 +35766,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider_Green (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3123637395018321054, guid: 751ed96bca9aa174bacdac960b90c802,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 751ed96bca9aa174bacdac960b90c802, type: 3}
 --- !u!4 &967338549 stripped
@@ -37914,6 +38005,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider_Green (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3123637395018321054, guid: 751ed96bca9aa174bacdac960b90c802,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 751ed96bca9aa174bacdac960b90c802, type: 3}
 --- !u!4 &1047377645 stripped
@@ -42888,6 +42984,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider_Green (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3123637395018321054, guid: 751ed96bca9aa174bacdac960b90c802,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 751ed96bca9aa174bacdac960b90c802, type: 3}
 --- !u!4 &1174496168 stripped
@@ -48633,6 +48734,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider_Green (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3123637395018321054, guid: 751ed96bca9aa174bacdac960b90c802,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 751ed96bca9aa174bacdac960b90c802, type: 3}
 --- !u!4 &1337486750 stripped
@@ -49570,6 +49676,11 @@ PrefabInstance:
       propertyPath: Ganaste
       value: 
       objectReference: {fileID: 91125873}
+    - target: {fileID: 5054848064102177280, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 5054848064102177282, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
         type: 3}
       propertyPath: m_Name
@@ -50021,6 +50132,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider_Green (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3123637395018321054, guid: 751ed96bca9aa174bacdac960b90c802,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 751ed96bca9aa174bacdac960b90c802, type: 3}
 --- !u!4 &1379627660 stripped
@@ -50611,6 +50727,11 @@ PrefabInstance:
       propertyPath: Ganaste
       value: 
       objectReference: {fileID: 91125873}
+    - target: {fileID: 5054848064102177280, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 5054848064102177282, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
         type: 3}
       propertyPath: m_Name
@@ -54790,6 +54911,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2066018910}
     m_Modifications:
+    - target: {fileID: 6996353038466440129, guid: 365f088ae0de42d4aae84c7d136255af,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 6996353038466440131, guid: 365f088ae0de42d4aae84c7d136255af,
         type: 3}
       propertyPath: m_Name
@@ -55947,6 +56073,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2066018910}
     m_Modifications:
+    - target: {fileID: 6996353038466440129, guid: 365f088ae0de42d4aae84c7d136255af,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 6996353038466440131, guid: 365f088ae0de42d4aae84c7d136255af,
         type: 3}
       propertyPath: m_Name
@@ -56464,6 +56595,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2066018910}
     m_Modifications:
+    - target: {fileID: 6996353038466440129, guid: 365f088ae0de42d4aae84c7d136255af,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 6996353038466440131, guid: 365f088ae0de42d4aae84c7d136255af,
         type: 3}
       propertyPath: m_Name
@@ -57021,6 +57157,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2066018910}
     m_Modifications:
+    - target: {fileID: 6996353038466440129, guid: 365f088ae0de42d4aae84c7d136255af,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 6996353038466440131, guid: 365f088ae0de42d4aae84c7d136255af,
         type: 3}
       propertyPath: m_Name
@@ -58723,6 +58864,11 @@ PrefabInstance:
       propertyPath: Ganaste
       value: 
       objectReference: {fileID: 91125873}
+    - target: {fileID: 5054848064102177280, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 5054848064102177282, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
         type: 3}
       propertyPath: m_Name
@@ -60349,6 +60495,11 @@ PrefabInstance:
       propertyPath: Ganaste
       value: 
       objectReference: {fileID: 91125873}
+    - target: {fileID: 5054848064102177280, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 5054848064102177282, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
         type: 3}
       propertyPath: m_Name
@@ -62662,6 +62813,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider_Green (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3123637395018321054, guid: 751ed96bca9aa174bacdac960b90c802,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 751ed96bca9aa174bacdac960b90c802, type: 3}
 --- !u!4 &1766746429 stripped
@@ -62872,6 +63028,11 @@ PrefabInstance:
       propertyPath: Ganaste
       value: 
       objectReference: {fileID: 91125873}
+    - target: {fileID: 5054848064102177280, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 5054848064102177282, guid: d2bc1a4e5c33a1e4f9cc82ad1ee0a3aa,
         type: 3}
       propertyPath: m_Name
@@ -63042,6 +63203,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider_Green
       objectReference: {fileID: 0}
+    - target: {fileID: 3123637395018321054, guid: 751ed96bca9aa174bacdac960b90c802,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 751ed96bca9aa174bacdac960b90c802, type: 3}
 --- !u!4 &1774328355 stripped
@@ -68389,6 +68555,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2066018910}
     m_Modifications:
+    - target: {fileID: 6996353038466440129, guid: 365f088ae0de42d4aae84c7d136255af,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 6996353038466440131, guid: 365f088ae0de42d4aae84c7d136255af,
         type: 3}
       propertyPath: m_Name
@@ -68654,6 +68825,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2066018910}
     m_Modifications:
+    - target: {fileID: 6996353038466440129, guid: 365f088ae0de42d4aae84c7d136255af,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     - target: {fileID: 6996353038466440131, guid: 365f088ae0de42d4aae84c7d136255af,
         type: 3}
       propertyPath: m_Name
@@ -71340,6 +71516,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider_Green (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3123637395018321054, guid: 751ed96bca9aa174bacdac960b90c802,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 751ed96bca9aa174bacdac960b90c802, type: 3}
 --- !u!4 &1997696883 stripped
@@ -71992,6 +72173,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider_Green (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3123637395018321054, guid: 751ed96bca9aa174bacdac960b90c802,
+        type: 3}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 625932812}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 751ed96bca9aa174bacdac960b90c802, type: 3}
 --- !u!4 &2019141696 stripped

@@ -44,6 +44,10 @@ public class CambioEscenas : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
+    public void CargarEscenaNido3()
+    {
+        SceneManager.LoadScene(5);
+    }
     public void CargarEscenaLaboratorio()
     {
         SceneManager.LoadScene(0);

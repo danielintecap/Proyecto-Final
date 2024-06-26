@@ -13247,8 +13247,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dale continuar, si crees que ya aprendiste todas las mecanicas, de lo contrario
-    regresa
+  m_Text: Dale continuar, si crees que ya estas listo para avanzar al siguiente nido,
+    de lo contrario regresa, recuerda que siempre puedes mejorar tus armas y aliados
 --- !u!222 &832852936
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26743,9 +26743,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1049043180}
         m_TargetAssemblyTypeName: CambioEscenas, Assembly-CSharp
-        m_MethodName: CargarEscenaLobby
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -33014,14 +33014,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872672978}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 125.01449, y: 42.97599, z: 261.12808}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: 0.3198269, z: -0, w: 0.947476}
+  m_LocalPosition: {x: 148.3, y: 5.7, z: 276.6}
+  m_LocalScale: {x: 26.5399, y: 20.472, z: 38.98483}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1049043182}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 37.305, z: 0}
 --- !u!114 &1872672980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33096,7 +33096,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872672978}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -46726,8 +46726,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dale continuar, si crees que ya aprendiste todas las mecanicas, de lo contrario
-    regresa
+  m_Text: Dale continuar, si crees que ya estas listo para avanzar al siguiente nido,
+    de lo contrario regresa, recuerda que siempre puedes mejorar tus armas y aliados
 --- !u!222 &2793214473010961524
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -47020,9 +47020,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1049043181}
         m_TargetAssemblyTypeName: CambioEscenas, Assembly-CSharp
-        m_MethodName: CargarEscenaLobby
+        m_MethodName: CargarEscenaNido2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -47388,8 +47388,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dale continuar, si crees que ya aprendiste todas las mecanicas, de lo contrario
-    regresa
+  m_Text: Parece que los aliens se han apoderado de la central electrica y han dejado
+    sin electricidad al laboratorio, ayudanos a recuperar la zona
 --- !u!224 &3218475266259682705
 RectTransform:
   m_ObjectHideFlags: 0
@@ -47969,9 +47969,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1049043181}
         m_TargetAssemblyTypeName: CambioEscenas, Assembly-CSharp
-        m_MethodName: CargarEscenaLobby
+        m_MethodName: CargarEscenaCentralElectrica
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
