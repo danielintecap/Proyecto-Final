@@ -52,4 +52,12 @@ public class CambioEscenas : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+    public void GameExit()
+    {
+        Application.Quit();
+    }
+    public void Reintentar()
+    {
+        Time.timeScale = 1;
+    }
 }
