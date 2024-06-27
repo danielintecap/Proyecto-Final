@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 3123637395018321052}
   - component: {fileID: 3123637395018321055}
   - component: {fileID: 3123637395018321054}
+  - component: {fileID: 2946598377009275335}
   m_Layer: 0
   m_Name: Spider_Green
   m_TagString: Untagged
@@ -143,6 +144,19 @@ MonoBehaviour:
   tiempo: 0
   tiempoRestante: 0
   vida: 0
+--- !u!114 &2946598377009275335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3123637395018321049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd649f50c7b500419d17950491f1400, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpiderGreen: {fileID: 3123637395018321049}
 --- !u!1 &3123637395461812825
 GameObject:
   m_ObjectHideFlags: 0
@@ -1118,7 +1132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c50a5f8cff26b44a1d0ada6a341519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpiderGreen: {fileID: 0}
+  SpiderGreen: {fileID: 3123637395018321049}
   ParticulaL: {fileID: 0}
   ParticulaR: {fileID: 0}
   ParticulaSpiderGreen: {fileID: 8915500580573861359, guid: 9d11447644b0e0842a7edb034fe1ac72,
