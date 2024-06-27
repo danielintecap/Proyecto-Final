@@ -37,14 +37,14 @@ public class Stats_Player : MonoBehaviour
             panelPersonajes.SetActive(true);
         }
     }
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.transform.tag == "AtaqueEnemigoRake")
         {
-            vida = vida - 0.1f;
+            vida = vida - 1f;
 
 
-            if (vida == 0)
+            if (vida <= 0)
             {
                 panelMuerte.SetActive(true);
                 Time.timeScale = 0;
@@ -53,10 +53,10 @@ public class Stats_Player : MonoBehaviour
 
         if (other.transform.tag == "AtaqueEnemigoLizard")
         {
-            vida = vida - 0.1f;
+            vida = vida - 1f;
 
 
-            if (vida == 0)
+            if (vida <= 0)
             {
                 panelMuerte.SetActive(true);
                 Time.timeScale = 0;
@@ -65,10 +65,10 @@ public class Stats_Player : MonoBehaviour
 
         if (other.transform.tag == "AtaqueEnemigoSpiderGreen")
         {
-            vida = vida - 0.1f;
+            vida = vida - 1f;
 
 
-            if (vida == 0)
+            if (vida <= 0)
             {
                 panelMuerte.SetActive(true);
                 Time.timeScale = 0;
