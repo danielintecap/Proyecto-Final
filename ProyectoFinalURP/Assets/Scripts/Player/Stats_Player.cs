@@ -41,7 +41,7 @@ public class Stats_Player : MonoBehaviour
     {
         if (other.transform.tag == "AtaqueEnemigoRake")
         {
-            vida = vida - 0.5f;
+            vida = vida - 0.1f;
 
 
             if (vida == 0)
@@ -53,7 +53,7 @@ public class Stats_Player : MonoBehaviour
 
         if (other.transform.tag == "AtaqueEnemigoLizard")
         {
-            vida = vida - 0.5f;
+            vida = vida - 0.1f;
 
 
             if (vida == 0)
@@ -65,7 +65,7 @@ public class Stats_Player : MonoBehaviour
 
         if (other.transform.tag == "AtaqueEnemigoSpiderGreen")
         {
-            vida = vida - 0.5f;
+            vida = vida - 0.1f;
 
 
             if (vida == 0)
